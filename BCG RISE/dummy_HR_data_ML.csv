@@ -1,0 +1,944 @@
+emp_id,BusinessUnit_Primary,Function,Country,Pay_Grade,EmpDuration_Company,EmpDuration_Position,Gender,Age_Decade,Race,Graduate,AttritionRisk,ForeignCountry,Position_>3Y,Position_>5Y,Seniority,JobTitleAgg,PromoEligibility,TargetedRoleIdentified,PerformanceRank_Current,PerformanceRank_LastYear,PotentialRank_Current,PotentialRank_LastYear,ChangeInPerformanceRank,ChangeInPotentialRank
+1,BU_P1,Others,GL,1,15.0,12.5,Female,5,Hispano,No,1,0,1,1,1,Admin Assistant,0,0,2,2,2,2,0,0
+2,BU_P1,Others,GL,1,15.0,12.5,Female,4,British,No,1,0,1,1,1,Admin Assistant,0,0,2,2,2,2,0,0
+3,BU_P1,Sales & Marketing,GL,5,12.5,12.5,Male,6,British,No,1,1,1,1,3,Manager,0,0,2,2,2,2,0,0
+4,BU_P1,Sales & Marketing,GL,3,2.0,2.0,Female,4,Chinese,No,1,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+5,BU_P1,Sales & Marketing,CA,2,15.0,2.0,Female,5,Scottish,No,1,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+6,BU_P1,Sales & Marketing,CA,4,4.0,1.0,Male,3,Canadian,No,2,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+7,BU_P1,Sales & Marketing,CA,1,4.0,1.0,Female,2,Canadian,No,2,0,0,0,1,Analyst,1,0,3,3,3,3,0,0
+8,BU_P1,Sales & Marketing,CA,1,2.0,2.0,Female,2,English,No,2,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+9,BU_P1,Sales & Marketing,CA,2,15.0,2.0,Female,5,English,No,1,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+10,BU_P1,Sales & Marketing,CA,5,15.0,2.0,Female,5,English,No,1,0,0,0,3,Adviser,1,0,2,2,2,2,0,0
+11,BU_P1,Sales & Marketing,CA,2,15.0,1.0,Female,4,Canadian,No,1,0,0,0,2,Analyst,0,0,2,2,2,2,0,0
+12,BU_P1,Sales & Marketing,GL,1,4.0,1.0,Male,2,British,No,3,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+13,BU_P1,Sales & Marketing,CA,2,4.0,1.0,Female,5,Scottish,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+14,BU_P1,Sales & Marketing,CA,1,2.0,2.0,Male,2,Scottish,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+15,BU_P1,Sales & Marketing,CA,1,2.0,2.0,Male,3,English,No,1,1,0,0,2,Analyst,0,0,2,2,2,2,0,0
+16,BU_P1,Sales & Marketing,CA,1,2.0,2.0,Female,5,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+17,BU_P1,Sales & Marketing,CA,5,15.0,2.0,Male,4,Canadian,No,1,0,0,0,3,Adviser,1,0,3,3,3,3,0,0
+18,BU_P1,Sales & Marketing,CA,3,15.0,2.0,Male,5,Canadian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+19,BU_P1,Sales & Marketing,CA,3,12.5,2.0,Male,4,Scottish,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+20,BU_P1,Sales & Marketing,CA,6,15.0,2.0,Female,4,Scottish,No,1,0,0,0,3,Adviser,0,0,3,3,3,3,0,0
+21,BU_P1,Sales & Marketing,CA,2,1.0,1.0,Male,6,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+22,BU_P1,Others,CA,3,2.0,1.0,Male,3,English,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+23,BU_P1,Supply Chain,CA,4,2.0,1.0,Female,5,Scottish,No,2,0,0,0,3,Adviser,1,1,2,2,2,2,0,0
+24,BU_P1,Supply Chain,CA,4,4.0,2.0,Female,3,English,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+25,BU_P1,Sales & Marketing,US,6,2.0,2.0,Male,4,White,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+26,BU_P1,Sales & Marketing,AU,5,2.0,2.0,Male,3,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+27,BU_P1,Sales & Marketing,GL,5,7.5,7.5,Male,4,Scottish,No,1,0,1,1,3,Adviser,0,0,2,2,2,2,0,0
+28,BU_P1,Sales & Marketing,SG,2,4.0,2.0,Female,4,Chinese,No,3,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+29,BU_P1,Sales & Marketing,GL,6,15.0,12.5,Male,5,Chinese,No,1,1,1,1,3,Adviser,0,0,2,3,2,3,-1,-1
+30,BU_P1,Sales & Marketing,SG,2,12.5,4.0,Female,4,Chinese,No,1,1,1,0,1,Analyst,0,0,2,2,2,2,0,0
+31,BU_P1,Sales & Marketing,SG,4,12.5,2.0,Female,4,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+32,BU_P1,Sales & Marketing,SG,2,7.5,1.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+33,BU_P1,Sales & Marketing,SG,1,1.0,1.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+34,BU_P1,Sales & Marketing,AU,2,15.0,4.0,Female,4,Italian,No,1,1,1,0,1,Analyst,0,0,3,3,3,3,0,0
+35,BU_P1,Sales & Marketing,SG,2,12.5,12.5,Female,4,Indian,No,1,0,1,1,1,Analyst,0,0,3,2,3,2,1,1
+36,BU_P1,Sales & Marketing,SG,2,4.0,4.0,Female,4,Chinese,No,1,1,1,0,1,Analyst,0,0,3,3,3,3,0,0
+37,BU_P1,Sales & Marketing,SG,4,2.0,2.0,Female,3,Chinese,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+38,BU_P1,Sales & Marketing,SG,5,2.0,2.0,Female,3,Malays,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+39,BU_P1,Sales & Marketing,AU,6,15.0,2.0,Male,6,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+40,BU_P1,Sales & Marketing,SG,4,4.0,2.0,Female,4,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+41,BU_P1,Sales & Marketing,SG,2,4.0,2.0,Female,2,Indian,No,2,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+42,BU_P1,Sales & Marketing,SG,4,2.0,2.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+43,BU_P1,Sales & Marketing,AU,6,12.5,1.0,Male,4,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+44,BU_P1,Sales & Marketing,SG,3,2.0,2.0,Female,4,Malays,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+45,BU_P1,Sales & Marketing,SG,4,7.5,4.0,Female,3,Chinese,No,2,0,1,0,2,Adviser,0,0,2,2,2,2,0,0
+46,BU_P1,Sales & Marketing,SG,3,4.0,2.0,Male,2,Chinese,No,2,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+47,BU_P1,Sales & Marketing,SG,4,2.0,2.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+48,BU_P1,Sales & Marketing,CA,5,12.5,1.0,Female,4,Canadian,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+49,BU_P1,Sales & Marketing,CA,3,4.0,2.0,Male,3,Scottish,No,2,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+50,BU_P1,Sales & Marketing,CA,5,4.0,1.0,Female,3,Canadian,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+51,BU_P1,Sales & Marketing,CA,2,4.0,2.0,Male,3,Canadian,No,2,0,0,0,1,Analyst,1,0,3,3,3,3,0,0
+52,BU_P1,Sales & Marketing,CA,4,2.0,2.0,Male,3,Canadian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+53,BU_P1,Sales & Marketing,GL,6,12.5,4.0,Female,3,Scottish,No,3,1,1,0,3,Adviser,1,0,3,3,3,3,0,0
+54,BU_P1,Sales & Marketing,DE,4,2.0,2.0,Male,3,German,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+55,BU_P1,Sales & Marketing,CA,6,15.0,4.0,Male,4,Canadian,No,1,0,1,0,3,Adviser,0,0,2,2,2,2,0,0
+56,BU_P1,Sales & Marketing,US,6,7.5,1.0,Male,3,Black,No,1,1,0,0,3,Adviser,0,0,3,3,3,3,0,0
+57,BU_P1,Sales & Marketing,CA,6,15.0,2.0,Female,5,Canadian,No,1,0,0,0,3,Adviser,0,0,3,3,3,3,0,0
+58,BU_P1,Sales & Marketing,US,6,15.0,1.0,Female,5,Hispano,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+59,BU_P1,Sales & Marketing,CA,6,15.0,2.0,Male,4,English,No,3,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+60,BU_P1,Sales & Marketing,US,5,12.5,2.0,Male,3,White,No,1,1,0,0,3,Adviser,0,0,3,3,3,3,0,0
+61,BU_P1,Sales & Marketing,US,6,2.0,2.0,Female,5,Hispano,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+62,BU_P1,Sales & Marketing,US,6,1.0,1.0,Female,4,White,No,2,1,0,0,3,Adviser,0,0,3,3,3,3,0,0
+63,BU_P1,Sales & Marketing,CA,4,7.5,1.0,Female,3,Canadian,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+64,BU_P1,Sales & Marketing,SG,5,7.5,1.0,Female,3,Chinese,No,2,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+65,BU_P1,Sales & Marketing,SG,2,4.0,2.0,Female,3,Chinese,No,2,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+66,BU_P1,Sales & Marketing,SG,3,2.0,1.0,Male,3,Malays,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+67,BU_P1,Sales & Marketing,SG,4,7.5,1.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+68,BU_P1,Sales & Marketing,SG,4,7.5,1.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+69,BU_P1,Sales & Marketing,SG,2,7.5,4.0,Female,4,Chinese,No,1,0,1,0,1,Analyst,0,1,2,2,2,2,0,0
+70,BU_P1,Sales & Marketing,SG,4,7.5,1.0,Male,3,Malays,No,1,1,0,0,2,Adviser,1,1,2,2,2,2,0,0
+71,BU_P1,Sales & Marketing,SG,2,4.0,2.0,Female,3,Chinese,No,2,1,0,0,1,Analyst,1,1,2,2,2,2,0,0
+72,BU_P1,Sales & Marketing,SG,5,1.0,1.0,Female,3,Chinese,No,1,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+73,BU_P1,Sales & Marketing,CA,4,15.0,2.0,Male,4,English,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+74,BU_P1,Sales & Marketing,CA,2,15.0,2.0,Female,5,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+75,BU_P1,Sales & Marketing,CA,2,12.5,2.0,Female,4,Scottish,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+76,BU_P1,Sales & Marketing,CN,5,2.0,2.0,Female,3,Chinese,No,1,0,0,0,3,Adviser,0,0,3,3,3,3,0,0
+77,BU_P1,Sales & Marketing,CN,4,2.0,2.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+78,BU_P1,Sales & Marketing,AU,4,7.5,2.0,Male,4,British,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+79,BU_P1,Others,GL,6,15.0,15.0,Male,5,Chinese,No,1,1,1,1,3,Manager,0,1,2,3,2,3,-1,-1
+80,BU_P1,Others,GL,4,15.0,1.0,Male,4,Canadian,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+81,BU_P1,Others,GL,6,15.0,4.0,Male,5,Irish,No,1,1,1,0,3,Manager,1,1,2,2,2,2,0,0
+82,BU_P1,Others,GL,5,12.5,2.0,Male,3,English,No,2,1,0,0,3,Adviser,0,1,2,2,2,2,0,0
+83,BU_P1,Others,GL,5,15.0,4.0,Male,4,Chinese,No,1,1,1,0,3,Adviser,0,1,2,2,2,2,0,0
+84,BU_P1,Others,GL,5,15.0,7.5,Male,4,Chinese,No,1,1,1,1,3,Adviser,0,1,2,2,2,2,0,0
+85,BU_P1,Others,AU,3,12.5,2.0,Female,3,British,No,1,1,0,0,2,Engineer,0,1,3,3,3,3,0,0
+86,BU_P1,Others,AU,3,7.5,2.0,Male,3,Italian,No,1,1,0,0,2,Engineer,0,1,2,2,2,2,0,0
+87,BU_P1,Others,AU,1,2.0,2.0,Male,2,British,Yes,2,0,0,0,1,Engineer,1,1,3,3,3,3,0,0
+88,BU_P1,Others,AU,1,1.0,1.0,Male,2,British,Yes,1,1,0,0,1,Engineer,1,1,3,3,3,3,0,0
+89,BU_P1,Sales & Marketing,AU,5,4.0,2.0,Male,4,British,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+90,BU_P1,Sales & Marketing,US,5,2.0,2.0,Male,4,Black,No,2,1,0,0,3,Adviser,0,0,3,3,3,3,0,0
+91,BU_P1,Others,US,5,4.0,4.0,Male,3,White,No,2,0,1,0,3,Adviser,0,1,2,2,2,2,0,0
+92,BU_P1,Sales & Marketing,US,1,2.0,2.0,Female,2,White,No,3,1,0,0,1,Analyst,1,1,3,3,3,3,0,0
+93,BU_P1,Sales & Marketing,AU,5,2.0,2.0,Male,4,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+94,BU_P1,Others,US,6,2.0,2.0,Male,3,White,No,1,0,0,0,3,Adviser,0,0,3,3,3,3,0,0
+95,BU_P1,Sales & Marketing,CA,4,7.5,1.0,Female,3,Scottish,No,1,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+96,BU_P1,Sales & Marketing,CA,3,4.0,2.0,Female,2,Scottish,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+97,BU_P1,Sales & Marketing,SG,5,4.0,2.0,Female,3,Chinese,No,3,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+98,BU_P1,Sales & Marketing,US,3,2.0,2.0,Male,3,White,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+99,BU_P1,Sales & Marketing,US,6,2.0,2.0,Female,5,Hispano,No,3,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+100,BU_P1,Sales & Marketing,US,4,1.0,1.0,Male,5,White,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+101,BU_P1,Sales & Marketing,SG,6,2.0,2.0,Female,5,Chinese,No,1,0,0,0,3,Adviser,1,1,1,1,1,1,0,0
+102,BU_P2,Sales & Marketing,SG,6,7.5,2.0,Male,3,Malays,No,1,1,0,0,3,Adviser,1,0,2,2,2,2,0,0
+103,BU_P2,Sales & Marketing,CN,4,7.5,2.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+104,BU_P2,Sales & Marketing,SG,6,7.5,2.0,Male,4,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+105,BU_P2,Sales & Marketing,SG,6,1.0,1.0,Male,5,Indian,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+106,BU_P2,Sales & Marketing,CN,5,7.5,7.5,Male,3,Chinese,No,2,0,1,1,3,Adviser,0,1,2,2,2,2,0,0
+107,BU_P2,Sales & Marketing,CN,4,12.5,12.5,Male,4,Chinese,No,3,0,1,1,2,Adviser,1,1,3,3,3,3,0,0
+108,BU_P2,Sales & Marketing,CN,3,2.0,2.0,Female,3,Chinese,No,1,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+109,BU_P2,Sales & Marketing,CN,1,7.5,1.0,Female,3,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+110,BU_P2,Sales & Marketing,SG,5,2.0,2.0,Male,3,Malays,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+111,BU_P2,Sales & Marketing,GL,5,15.0,7.5,Female,5,Chinese,No,1,1,1,1,3,Manager,0,0,2,2,2,2,0,0
+112,BU_P2,Sales & Marketing,GL,3,7.5,1.0,Male,5,British,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+113,BU_P2,Sales & Marketing,GL,3,12.5,12.5,Female,4,Chinese,No,1,1,1,1,2,Adviser,0,0,2,3,2,3,-1,-1
+114,BU_P2,Sales & Marketing,GL,3,15.0,12.5,Female,6,Canadian,No,1,1,1,1,2,Adviser,0,0,2,3,2,3,-1,-1
+115,BU_P2,Sales & Marketing,GL,3,15.0,12.5,Female,5,Malays,No,1,1,1,1,2,Adviser,0,0,2,3,2,3,-1,-1
+116,BU_P2,Sales & Marketing,GL,6,12.5,12.5,Male,5,British,No,2,1,1,1,3,Manager,0,0,2,2,2,2,0,0
+117,BU_P2,Sales & Marketing,GL,4,7.5,7.5,Male,5,German,No,2,0,1,1,2,Adviser,1,0,3,3,3,3,0,0
+118,BU_P2,Sales & Marketing,SG,2,2.0,2.0,Female,3,Chinese,No,1,1,0,0,1,Analyst,0,0,3,3,3,3,0,0
+119,BU_P2,Sales & Marketing,SG,5,12.5,4.0,Female,3,Chinese,No,2,1,1,0,3,Manager,0,0,2,2,2,2,0,0
+120,BU_P2,Sales & Marketing,AU,2,12.5,1.0,Female,3,British,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+121,BU_P2,Sales & Marketing,AU,1,7.5,1.0,Female,4,British,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+122,BU_P2,Sales & Marketing,SG,3,7.5,4.0,Female,3,Malays,No,2,1,1,0,2,Adviser,0,0,2,2,2,2,0,0
+123,BU_P2,Sales & Marketing,AU,1,2.0,1.0,Female,2,British,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+124,BU_P2,Others,GL,2,7.5,7.5,Female,4,Chinese,No,1,1,1,1,1,Analyst,0,0,2,2,2,2,0,0
+125,BU_P2,Others,GL,1,7.5,2.0,Female,4,Chinese,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+126,BU_P2,Sales & Marketing,GL,1,12.5,2.0,Female,4,Indian,No,1,1,0,0,1,Analyst,0,1,2,2,2,2,0,0
+127,BU_P2,Sales & Marketing,GL,6,12.5,12.5,Male,4,Chinese,No,2,1,1,1,3,Manager,0,0,3,2,3,2,1,1
+128,BU_P2,Sales & Marketing,GL,5,15.0,7.5,Female,4,English,No,2,1,1,1,3,Manager,1,1,2,2,2,2,0,0
+129,BU_P2,Sales & Marketing,GL,1,15.0,2.0,Female,4,Canadian,No,2,1,0,0,1,Analyst,1,0,3,3,3,3,0,0
+130,BU_P2,Sales & Marketing,SG,6,12.5,1.0,Female,3,Chinese,No,2,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+131,BU_P2,Sales & Marketing,AU,6,7.5,1.0,Female,3,British,No,2,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+132,BU_P2,Sales & Marketing,US,6,12.5,2.0,Male,3,White,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+133,BU_P2,Sales & Marketing,US,1,2.0,2.0,Female,3,White,No,1,0,0,0,1,Analyst,1,1,2,2,2,2,0,0
+134,BU_P2,Sales & Marketing,US,4,2.0,1.0,Male,3,White,No,2,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+135,BU_P2,Sales & Marketing,SG,5,12.5,1.0,Male,3,Chinese,No,2,1,0,0,3,Adviser,1,0,2,2,2,2,0,0
+136,BU_P2,Sales & Marketing,US,5,7.5,2.0,Male,3,White,No,1,1,0,0,3,Manager,0,0,3,3,3,3,0,0
+137,BU_P2,Sales & Marketing,US,1,2.0,2.0,Male,3,Black,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+138,BU_P2,Sales & Marketing,US,5,7.5,1.0,Male,3,White,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+139,BU_P2,Sales & Marketing,US,5,4.0,1.0,Male,3,White,No,3,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+140,BU_P2,Sales & Marketing,US,6,12.5,2.0,Male,4,Black,No,1,1,0,0,3,Manager,1,0,2,2,2,2,0,0
+141,BU_P2,Sales & Marketing,US,3,2.0,2.0,Female,3,White,No,1,1,0,0,2,Adviser,1,0,2,2,2,2,0,0
+142,BU_P3,Others,CN,3,15.0,12.5,Female,5,Chinese,No,1,0,1,1,2,Adviser,0,0,2,2,2,2,0,0
+143,BU_P3,Others,CN,2,12.5,12.5,Female,3,Chinese,No,1,0,1,1,1,Analyst,0,1,2,3,2,3,-1,-1
+144,BU_P3,Others,CN,3,4.0,1.0,Female,3,British,No,2,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+145,BU_P3,Others,CN,5,1.0,1.0,Male,4,Scottish,No,3,0,0,0,3,Adviser,0,1,3,3,3,3,0,0
+146,BU_P3,Others,CN,5,7.5,1.0,Female,3,Chinese,No,3,0,0,0,3,Adviser,0,1,3,3,3,3,0,0
+147,BU_P3,Others,CN,2,4.0,2.0,Female,3,Chinese,No,2,0,0,0,1,Analyst,0,0,1,1,1,1,0,0
+148,BU_P3,Others,CN,2,1.0,1.0,Female,4,Chinese,No,1,0,0,0,1,Supervisor,0,1,3,3,3,3,0,0
+149,BU_P3,Others,CN,3,7.5,7.5,Female,3,Chinese,No,1,0,1,1,2,Adviser,0,1,2,2,2,2,0,0
+150,BU_P3,Others,CN,2,1.0,1.0,Male,3,Hispano,No,1,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+151,BU_P3,Others,CN,6,1.0,1.0,Male,3,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+152,BU_P3,Others,CN,4,1.0,1.0,Male,3,British,No,1,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+153,BU_P3,Others,CN,3,4.0,1.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+154,BU_P4,Sales & Marketing,SG,6,2.0,2.0,Female,4,Chinese,No,1,0,0,0,3,Manager,1,0,2,2,2,2,0,0
+155,BU_P4,Sales & Marketing,SG,1,2.0,1.0,Male,4,Chinese,No,2,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+156,BU_P4,Sales & Marketing,SG,2,2.0,1.0,Female,3,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+157,BU_P4,Sales & Marketing,CN,5,15.0,12.5,Female,4,Chinese,No,2,0,1,1,3,Manager,1,0,2,2,2,2,0,0
+158,BU_P4,Sales & Marketing,SG,5,2.0,2.0,Male,3,Malays,No,2,1,0,0,3,Manager,0,0,1,1,1,1,0,0
+159,BU_P4,Sales & Marketing,SG,1,1.0,1.0,Female,2,Malays,Yes,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+160,BU_P4,Sales & Marketing,SG,6,7.5,2.0,Female,4,Chinese,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+161,BU_P4,Supply Chain,SG,4,12.5,7.5,Female,4,Chinese,No,1,0,1,1,2,Adviser,1,1,2,2,2,2,0,0
+162,BU_P4,Supply Chain,SG,2,7.5,4.0,Female,4,Indian,No,2,0,1,0,1,Analyst,1,1,2,2,2,2,0,0
+163,BU_P4,Sales & Marketing,GL,6,15.0,2.0,Male,5,British,No,1,1,0,0,3,Adviser,0,0,3,3,3,3,0,0
+164,BU_P4,Sales & Marketing,GL,6,12.5,2.0,Male,3,British,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+165,BU_P4,Sales & Marketing,SG,4,2.0,1.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+166,BU_P4,Sales & Marketing,GL,5,1.0,1.0,Male,3,Chinese,No,1,1,0,0,3,Manager,0,0,1,1,1,1,0,0
+167,BU_P4,Sales & Marketing,CA,6,15.0,7.5,Male,4,English,No,1,0,1,1,3,Manager,0,0,2,2,2,2,0,0
+168,BU_P4,Supply Chain,CA,4,12.5,7.5,Male,4,Scottish,No,1,0,1,1,2,Adviser,1,1,2,2,2,2,0,0
+169,BU_P4,Sales & Marketing,CA,2,4.0,4.0,Male,4,Canadian,No,1,0,1,0,1,Analyst,0,0,2,2,2,2,0,0
+170,BU_P4,Sales & Marketing,CA,3,4.0,4.0,Female,4,English,No,2,0,1,0,2,Adviser,1,1,2,2,2,2,0,0
+171,BU_P4,Others,SG,1,12.5,4.0,Female,5,Chinese,No,1,0,1,0,1,Admin Assistant,0,0,2,2,2,2,0,0
+172,BU_P4,Sales & Marketing,DE,1,15.0,15.0,Female,6,German,No,1,0,1,1,1,Analyst,1,0,2,3,2,3,-1,-1
+173,BU_P4,Others,DE,1,15.0,2.0,Female,5,German,No,1,0,0,0,1,Admin Assistant,0,0,2,2,2,2,0,0
+174,BU_P4,Sales & Marketing,DE,1,12.5,12.5,Female,5,German,No,1,0,1,1,1,Analyst,0,0,3,2,3,2,1,1
+175,BU_P4,Sales & Marketing,DE,1,15.0,12.5,Female,5,German,No,1,0,1,1,1,Analyst,0,0,2,3,2,3,-1,-1
+176,BU_P4,Sales & Marketing,DE,4,7.5,1.0,Male,5,German,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+177,BU_P4,Sales & Marketing,DE,1,7.5,7.5,Female,3,German,No,1,0,1,1,1,Analyst,0,0,3,3,3,3,0,0
+178,BU_P4,Sales & Marketing,DE,1,7.5,7.5,Male,3,German,No,2,0,1,1,1,Analyst,1,0,3,3,3,3,0,0
+179,BU_P4,Sales & Marketing,DE,1,4.0,4.0,Male,4,German,No,1,0,1,0,1,Analyst,0,0,3,3,3,3,0,0
+180,BU_P4,Sales & Marketing,DE,1,1.0,1.0,Male,5,German,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+181,BU_P4,Sales & Marketing,CA,1,15.0,15.0,Female,6,Canadian,No,1,0,1,1,1,Analyst,0,0,3,2,3,2,1,1
+182,BU_P4,Sales & Marketing,CA,1,12.5,12.5,Female,3,Canadian,No,1,0,1,1,1,Analyst,1,0,3,2,3,2,1,1
+183,BU_P4,Sales & Marketing,CA,4,15.0,2.0,Female,5,Canadian,No,1,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+184,BU_P4,Sales & Marketing,CA,2,2.0,1.0,Male,3,English,No,1,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+185,BU_P4,Sales & Marketing,CA,1,2.0,2.0,Male,3,Scottish,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+186,BU_P4,Sales & Marketing,CA,1,12.5,2.0,Female,5,Scottish,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+187,BU_P4,Sales & Marketing,CA,1,12.5,12.5,Female,6,English,No,1,0,1,1,1,Analyst,0,0,2,3,2,3,-1,-1
+188,BU_P4,Sales & Marketing,CA,1,7.5,7.5,Female,6,Canadian,No,1,0,1,1,1,Analyst,0,0,2,2,2,2,0,0
+189,BU_P4,Sales & Marketing,CA,4,7.5,1.0,Female,3,Scottish,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+190,BU_P4,Sales & Marketing,CA,1,2.0,2.0,Female,3,Canadian,No,1,0,0,0,1,Analyst,1,1,3,3,3,3,0,0
+191,BU_P4,Sales & Marketing,GL,3,15.0,7.5,Male,4,White,No,1,1,1,1,2,Adviser,0,0,2,2,2,2,0,0
+192,BU_P4,Sales & Marketing,SG,3,7.5,7.5,Female,3,Chinese,No,2,1,1,1,2,Adviser,0,1,2,2,2,2,0,0
+193,BU_P4,Sales & Marketing,SG,1,4.0,4.0,Male,3,Chinese,No,1,0,1,0,1,Analyst,0,0,2,2,2,2,0,0
+194,BU_P4,Sales & Marketing,CA,2,2.0,2.0,Female,4,English,No,1,0,0,0,1,Analyst,1,1,2,2,2,2,0,0
+195,BU_P4,Sales & Marketing,CA,6,15.0,2.0,Male,5,English,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+196,BU_P4,Sales & Marketing,GL,2,15.0,7.5,Female,4,Hispano,No,1,1,1,1,1,Analyst,1,1,3,3,3,3,0,0
+197,BU_P4,Supply Chain,GL,2,12.5,12.5,Female,6,Indian,No,1,1,1,1,1,Analyst,0,0,2,2,2,2,0,0
+198,BU_P4,Sales & Marketing,GL,5,12.5,12.5,Female,5,Malays,No,1,1,1,1,3,Manager,0,0,3,2,3,2,1,1
+199,BU_P4,Sales & Marketing,GL,6,15.0,15.0,Male,5,Chinese,No,1,0,1,1,3,Manager,0,0,2,2,2,2,0,0
+200,BU_P4,Sales & Marketing,SG,5,12.5,2.0,Female,4,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+201,BU_P4,Sales & Marketing,GL,3,7.5,2.0,Male,3,Chinese,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+202,BU_P4,Sales & Marketing,DE,6,15.0,12.5,Male,5,German,No,1,0,1,1,3,Manager,0,0,2,3,2,3,-1,-1
+203,BU_P4,Sales & Marketing,SG,5,12.5,2.0,Female,4,Malays,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+204,BU_P4,Sales & Marketing,GL,4,15.0,4.0,Male,4,British,No,1,1,1,0,2,Adviser,0,0,2,2,2,2,0,0
+205,BU_P4,Sales & Marketing,GL,4,2.0,2.0,Female,4,Chinese,No,2,1,0,0,2,Adviser,1,0,3,3,3,3,0,0
+206,BU_P4,Sales & Marketing,SG,5,4.0,4.0,Male,3,Malays,No,2,1,1,0,3,Adviser,0,0,2,2,2,2,0,0
+207,BU_P4,Others,GL,4,7.5,1.0,Female,3,English,No,2,1,0,0,2,Research,1,0,2,2,2,2,0,0
+208,BU_P4,Sales & Marketing,GL,4,15.0,15.0,Male,6,Chinese,No,1,1,1,1,2,Adviser,0,0,2,2,2,2,0,0
+209,BU_P4,Sales & Marketing,US,4,2.0,1.0,Male,5,White,No,1,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+210,BU_P4,Sales & Marketing,GL,5,7.5,2.0,Male,4,Chinese,No,2,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+211,BU_P4,Others,GL,4,2.0,2.0,Male,4,British,No,2,1,0,0,2,Research,0,0,2,2,2,2,0,0
+212,BU_P4,Sales & Marketing,US,5,12.5,2.0,Male,3,White,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+213,BU_P4,Sales & Marketing,US,5,2.0,2.0,Male,5,White,No,2,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+214,BU_P4,Sales & Marketing,US,5,2.0,2.0,Male,4,White,No,2,0,0,0,3,Manager,0,0,1,1,1,1,0,0
+215,BU_P4,Sales & Marketing,SG,4,7.5,4.0,Male,3,Chinese,No,1,0,1,0,2,Adviser,0,0,2,2,2,2,0,0
+216,BU_P4,Sales & Marketing,SG,4,4.0,1.0,Male,4,Chinese,No,2,1,0,0,2,Adviser,1,0,2,2,2,2,0,0
+217,BU_P4,Sales & Marketing,US,1,7.5,2.0,Male,5,White,No,1,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+218,BU_P4,Sales & Marketing,US,4,4.0,4.0,Female,6,White,No,1,0,1,0,2,Adviser,0,0,2,2,2,2,0,0
+219,BU_P4,Sales & Marketing,US,1,2.0,2.0,Male,3,White,No,2,1,0,0,1,Analyst,0,1,1,1,1,1,0,0
+220,BU_P4,Sales & Marketing,US,1,2.0,2.0,Male,5,Hispano,No,2,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+221,BU_P4,Sales & Marketing,US,1,2.0,2.0,Female,3,White,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+222,BU_P4,Sales & Marketing,US,1,1.0,1.0,Female,6,Hispano,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+223,BU_P4,Others,US,5,7.5,2.0,Male,3,Hispano,No,2,1,0,0,3,Adviser,1,0,3,3,3,3,0,0
+224,BU_P4,Supply Chain,GL,2,15.0,15.0,Female,6,Chinese,No,1,1,1,1,1,Analyst,0,0,2,2,2,2,0,0
+225,BU_P4,Supply Chain,GL,4,12.5,1.0,Female,3,English,No,3,1,0,0,2,Adviser,1,0,2,2,2,2,0,0
+226,BU_P4,Supply Chain,GL,4,7.5,1.0,Male,2,British,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+227,BU_P4,Supply Chain,US,6,7.5,2.0,Female,4,Hispano,No,2,1,0,0,3,Manager,1,0,2,2,2,2,0,0
+228,BU_P4,Supply Chain,US,4,2.0,1.0,Male,3,White,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+229,BU_P4,Sales & Marketing,US,5,7.5,2.0,Male,3,White,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+230,BU_P4,Sales & Marketing,SG,3,7.5,4.0,Male,3,Chinese,No,3,1,1,0,2,Adviser,1,0,2,2,2,2,0,0
+231,BU_P4,Sales & Marketing,US,3,2.0,1.0,Female,3,White,No,1,0,0,0,1,Adviser,0,0,3,3,3,3,0,0
+232,BU_P4,Sales & Marketing,SG,1,12.5,12.5,Female,4,Chinese,No,1,1,1,1,1,Analyst,1,0,2,3,2,3,-1,-1
+233,BU_P4,Sales & Marketing,SG,2,12.5,2.0,Female,4,Chinese,No,2,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+234,BU_P4,Sales & Marketing,SG,3,12.5,1.0,Female,4,Chinese,No,1,0,0,0,1,Adviser,1,0,2,2,2,2,0,0
+235,BU_P4,Sales & Marketing,SG,1,7.5,7.5,Female,5,Indian,No,1,0,1,1,1,Analyst,1,0,2,2,2,2,0,0
+236,BU_P4,Sales & Marketing,SG,5,7.5,7.5,Female,5,Chinese,No,1,0,1,1,3,Manager,0,0,2,2,2,2,0,0
+237,BU_P4,Sales & Marketing,SG,1,7.5,2.0,Female,3,Chinese,No,2,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+238,BU_P4,Sales & Marketing,SG,1,2.0,2.0,Female,4,Chinese,No,1,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+239,BU_P4,Sales & Marketing,SG,1,2.0,2.0,Female,3,Malays,No,2,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+240,BU_P4,Sales & Marketing,GL,5,7.5,2.0,Female,4,English,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+241,BU_P4,Sales & Marketing,DE,5,15.0,15.0,Male,6,German,No,1,0,1,1,3,Manager,0,0,2,3,2,3,-1,-1
+242,BU_P4,Sales & Marketing,DE,5,2.0,2.0,Male,5,German,No,3,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+243,BU_P4,Sales & Marketing,DE,3,2.0,1.0,Female,3,German,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+244,BU_P4,Sales & Marketing,CN,5,12.5,2.0,Male,4,Chinese,No,2,0,0,0,3,Adviser,0,0,3,3,3,3,0,0
+245,BU_P4,Sales & Marketing,CN,5,15.0,15.0,Male,5,Chinese,No,1,0,1,1,3,Adviser,1,0,2,2,2,2,0,0
+246,BU_P4,Sales & Marketing,CN,5,15.0,15.0,Male,5,Chinese,No,1,0,1,1,3,Adviser,0,0,2,3,2,3,-1,-1
+247,BU_P4,Others,SG,4,15.0,15.0,Male,7,Chinese,No,1,1,1,1,2,Research,0,0,2,2,2,2,0,0
+248,BU_P4,Sales & Marketing,CN,4,7.5,2.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+249,BU_P4,Others,CN,5,1.0,1.0,Male,3,Chinese,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+250,BU_P4,Sales & Marketing,CN,4,12.5,12.5,Female,4,Chinese,No,1,0,1,1,2,Adviser,0,0,2,3,2,3,-1,-1
+251,BU_P4,Sales & Marketing,CN,3,2.0,1.0,Female,2,Chinese,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+252,BU_P4,Sales & Marketing,GL,6,12.5,7.5,Male,4,Hispano,No,1,1,1,1,3,Manager,1,0,2,2,2,2,0,0
+253,BU_P4,Sales & Marketing,GL,2,7.5,2.0,Female,4,White,No,1,1,0,0,1,Analyst,0,0,1,1,1,1,0,0
+254,BU_P4,Sales & Marketing,GL,2,7.5,1.0,Female,4,Chinese,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+255,BU_P4,Sales & Marketing,GL,3,7.5,2.0,Male,4,English,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+256,BU_P4,Sales & Marketing,GL,4,4.0,4.0,Male,3,British,No,2,0,1,0,2,Adviser,1,0,2,2,2,2,0,0
+257,BU_P4,Sales & Marketing,US,5,12.5,2.0,Female,3,Hispano,No,1,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+258,BU_P4,Sales & Marketing,US,4,2.0,2.0,Male,3,Black,No,2,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+259,BU_P4,Sales & Marketing,CN,5,2.0,2.0,Male,4,Chinese,No,1,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+260,BU_P4,Others,GL,1,12.5,12.5,Female,3,White,No,2,1,1,1,1,Research,0,1,2,2,2,2,0,0
+261,BU_P4,Sales & Marketing,GL,3,7.5,2.0,Male,6,Chinese,No,1,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+262,BU_P4,Others,CN,3,4.0,1.0,Female,3,Chinese,No,2,0,0,0,2,Research,0,1,2,2,2,2,0,0
+263,BU_P4,Sales & Marketing,CN,4,4.0,1.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+264,BU_P4,Sales & Marketing,GL,5,15.0,2.0,Male,5,Irish,No,1,1,0,0,3,Manager,0,1,2,2,2,2,0,0
+265,BU_P4,Sales & Marketing,DE,5,2.0,2.0,Male,5,German,No,1,1,0,0,3,Adviser,0,1,2,2,2,2,0,0
+266,BU_P4,Sales & Marketing,US,6,4.0,2.0,Male,5,White,No,1,1,0,0,3,Manager,0,1,2,2,2,2,0,0
+267,BU_P4,Sales & Marketing,US,5,2.0,2.0,Female,3,Hispano,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+268,BU_P4,Sales & Marketing,CA,5,2.0,1.0,Female,3,Canadian,No,2,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+269,BU_P4,Sales & Marketing,US,4,7.5,2.0,Male,5,Hispano,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+270,BU_P4,Sales & Marketing,US,6,2.0,1.0,Male,4,White,No,2,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+271,BU_P4,Others,SG,5,12.5,2.0,Male,3,Malays,No,1,1,0,0,2,Adviser,1,0,2,2,2,2,0,0
+272,BU_P4,Sales & Marketing,US,5,2.0,2.0,Female,4,Hispano,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+273,BU_P4,Sales & Marketing,US,1,1.0,1.0,Female,3,White,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+274,BU_P4,Sales & Marketing,US,1,1.0,1.0,Male,2,White,Yes,2,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+275,BU_P4,Sales & Marketing,SG,5,7.5,7.5,Female,4,Chinese,No,2,1,1,1,3,Adviser,0,0,2,2,2,2,0,0
+276,BU_P4,Sales & Marketing,SG,2,7.5,1.0,Female,4,Chinese,No,2,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+277,BU_P4,Sales & Marketing,US,4,12.5,2.0,Female,4,Hispano,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+278,BU_P4,Sales & Marketing,US,6,2.0,2.0,Male,5,Black,No,1,0,0,0,3,Manager,1,1,2,2,2,2,0,0
+279,BU_P4,Sales & Marketing,US,4,2.0,2.0,Male,4,White,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+280,BU_P4,Sales & Marketing,US,3,2.0,2.0,Female,2,White,No,2,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+281,BU_P4,Sales & Marketing,US,5,1.0,1.0,Female,3,Hispano,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+282,BU_P4,Sales & Marketing,CA,2,12.5,1.0,Female,4,English,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+283,BU_P4,Sales & Marketing,CA,4,4.0,2.0,Male,3,Canadian,No,2,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+284,BU_P5,Others,SG,4,4.0,1.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+285,BU_P5,Others,SG,4,4.0,2.0,Male,4,Chinese,No,2,1,0,0,2,Floor Manager,1,0,3,3,3,3,0,0
+286,BU_P5,Others,SG,5,2.0,2.0,Male,4,Chinese,No,1,0,0,0,3,Manager,1,0,2,2,2,2,0,0
+287,BU_P5,Others,SG,5,2.0,2.0,Male,3,Chinese,No,1,0,0,0,3,Adviser,1,0,3,3,3,3,0,0
+288,BU_P5,Others,SG,5,2.0,2.0,Male,4,Chinese,No,2,0,0,0,3,Adviser,1,0,3,3,3,3,0,0
+289,BU_P5,Others,SG,4,2.0,2.0,Male,3,Malays,No,2,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+290,BU_P5,Others,SG,1,2.0,2.0,Female,2,Chinese,Yes,1,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+291,BU_P5,Others,SG,4,2.0,2.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+292,BU_P5,Others,SG,4,2.0,2.0,Male,4,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+293,BU_P5,Others,SG,4,1.0,1.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+294,BU_P5,Others,SG,4,1.0,1.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+295,BU_P5,Sales & Marketing,SG,6,12.5,1.0,Female,4,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+296,BU_P5,Others,SG,5,2.0,2.0,Male,3,Chinese,No,1,1,0,0,3,Adviser,1,0,3,3,3,3,0,0
+297,BU_P5,Others,SG,6,1.0,1.0,Female,4,Chinese,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+298,BU_P5,Others,CA,6,7.5,1.0,Male,3,Scottish,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+299,BU_P5,Sales & Marketing,US,2,12.5,1.0,Male,5,Hispano,No,1,1,0,0,2,Analyst,1,1,3,3,3,3,0,0
+300,BU_P5,Sales & Marketing,US,2,1.0,1.0,Female,6,White,No,1,0,0,0,2,Analyst,1,0,2,2,2,2,0,0
+301,BU_P5,Sales & Marketing,CA,1,15.0,2.0,Female,5,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+302,BU_P5,Sales & Marketing,US,1,1.0,1.0,Female,5,Hispano,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+303,BU_P5,Sales & Marketing,US,1,2.0,2.0,Male,2,White,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+304,BU_P5,Sales & Marketing,CA,4,15.0,2.0,Female,6,Canadian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+305,BU_P5,Sales & Marketing,CA,2,12.5,1.0,Female,5,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+306,BU_P5,Others,CA,4,12.5,1.0,Female,3,Canadian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+307,BU_P5,Sales & Marketing,CA,1,2.0,2.0,Female,4,Scottish,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+308,BU_P5,Sales & Marketing,CA,2,2.0,2.0,Male,3,Canadian,No,2,1,0,0,1,Analyst,0,0,3,3,3,3,0,0
+309,BU_P5,Sales & Marketing,CA,1,2.0,2.0,Female,4,English,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+310,BU_P5,Sales & Marketing,CA,1,15.0,2.0,Female,6,Scottish,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+311,BU_P5,Sales & Marketing,CA,1,2.0,2.0,Male,3,English,No,2,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+312,BU_P5,Sales & Marketing,CA,1,2.0,2.0,Female,5,English,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+313,BU_P5,Sales & Marketing,CA,4,7.5,1.0,Male,3,Canadian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+314,BU_P5,Sales & Marketing,GL,1,4.0,4.0,Male,3,Chinese,No,1,1,1,0,1,Analyst,0,0,2,2,2,2,0,0
+315,BU_P5,Sales & Marketing,US,1,2.0,1.0,Female,4,White,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+316,BU_P5,Sales & Marketing,SG,6,2.0,1.0,Male,3,Indian,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+317,BU_P5,Sales & Marketing,SG,5,12.5,7.5,Female,5,Chinese,No,1,0,1,1,3,Manager,1,0,2,2,2,2,0,0
+318,BU_P5,Sales & Marketing,SG,1,12.5,1.0,Female,5,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+319,BU_P5,Sales & Marketing,SG,2,7.5,7.5,Female,4,Chinese,No,1,0,1,1,1,Analyst,0,0,2,2,2,2,0,0
+320,BU_P5,Sales & Marketing,SG,3,7.5,7.5,Female,3,Chinese,No,1,0,1,1,2,Adviser,0,0,2,2,2,2,0,0
+321,BU_P5,Sales & Marketing,SG,3,7.5,7.5,Female,4,Chinese,No,1,0,1,1,2,Adviser,0,0,2,2,2,2,0,0
+322,BU_P5,Sales & Marketing,SG,4,4.0,1.0,Female,4,Malays,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+323,BU_P5,Sales & Marketing,SG,1,4.0,1.0,Female,3,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+324,BU_P5,Sales & Marketing,SG,1,4.0,1.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+325,BU_P5,Sales & Marketing,SG,1,4.0,1.0,Female,5,Malays,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+326,BU_P5,Sales & Marketing,SG,2,2.0,1.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+327,BU_P5,Sales & Marketing,SG,1,2.0,1.0,Female,5,Malays,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+328,BU_P5,Sales & Marketing,SG,2,2.0,1.0,Female,3,Malays,No,2,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+329,BU_P5,Sales & Marketing,SG,1,2.0,1.0,Male,3,Chinese,No,2,0,0,0,1,Analyst,1,0,3,3,3,3,0,0
+330,BU_P5,Sales & Marketing,SG,1,12.5,1.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+331,BU_P5,Sales & Marketing,SG,4,12.5,1.0,Female,4,Chinese,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+332,BU_P5,Sales & Marketing,SG,3,12.5,1.0,Female,5,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+333,BU_P5,Sales & Marketing,SG,2,4.0,1.0,Female,4,Indian,No,1,1,0,0,1,Analyst,0,0,1,1,1,1,0,0
+334,BU_P5,Sales & Marketing,SG,3,4.0,1.0,Male,5,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+335,BU_P5,Sales & Marketing,SG,3,4.0,1.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+336,BU_P5,Sales & Marketing,SG,2,2.0,1.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+337,BU_P5,Sales & Marketing,SG,1,2.0,1.0,Female,3,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+338,BU_P5,Sales & Marketing,SG,1,2.0,1.0,Female,3,Malays,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+339,BU_P5,Sales & Marketing,CA,4,15.0,2.0,Female,5,English,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+340,BU_P5,Sales & Marketing,AU,4,15.0,2.0,Female,5,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+341,BU_P5,Sales & Marketing,SG,1,12.5,4.0,Female,4,Chinese,No,1,0,1,0,1,Analyst,0,1,2,2,2,2,0,0
+342,BU_P5,Sales & Marketing,CA,3,2.0,1.0,Female,5,Canadian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+343,BU_P5,Sales & Marketing,US,5,12.5,7.5,Male,5,White,No,3,1,1,1,3,Manager,1,0,2,2,2,2,0,0
+344,BU_P5,Sales & Marketing,SG,4,12.5,4.0,Female,3,Chinese,No,1,1,1,0,2,Adviser,0,0,2,2,2,2,0,0
+345,BU_P5,Sales & Marketing,SG,3,7.5,1.0,Female,4,Indian,No,1,1,0,0,1,Adviser,0,0,2,2,2,2,0,0
+346,BU_P5,Sales & Marketing,SG,6,4.0,4.0,Male,5,Chinese,No,1,0,1,0,3,Manager,0,0,2,2,2,2,0,0
+347,BU_P5,Others,SG,4,1.0,1.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+348,BU_P5,Others,SG,6,1.0,1.0,Female,3,Chinese,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+349,BU_P5,Sales & Marketing,SG,4,12.5,1.0,Female,4,Malays,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+350,BU_P5,Sales & Marketing,SG,1,7.5,1.0,Female,4,Malays,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+351,BU_P5,Sales & Marketing,SG,1,2.0,1.0,Female,4,Chinese,No,2,1,0,0,1,Analyst,0,0,1,1,1,1,0,0
+352,BU_P5,Sales & Marketing,SG,1,2.0,1.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+353,BU_P5,Sales & Marketing,SG,2,12.5,1.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+354,BU_P5,Sales & Marketing,SG,1,12.5,1.0,Female,5,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+355,BU_P5,Sales & Marketing,SG,4,7.5,1.0,Female,4,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+356,BU_P5,Sales & Marketing,SG,1,2.0,1.0,Female,4,Malays,No,1,1,0,0,1,Analyst,0,0,3,3,3,3,0,0
+357,BU_P5,Others,SG,6,2.0,2.0,Female,3,Chinese,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+358,BU_P5,Others,SG,6,2.0,2.0,Male,4,Indian,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+359,BU_P5,Others,CA,6,12.5,1.0,Male,5,English,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+360,BU_P5,Others,CA,5,7.5,1.0,Male,3,English,No,1,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+361,BU_P5,Others,SG,4,2.0,1.0,Female,4,Chinese,No,1,0,0,0,3,Adviser,1,1,2,2,2,2,0,0
+362,BU_P5,Others,SG,5,7.5,1.0,Male,3,Chinese,No,1,1,0,0,3,Adviser,1,1,2,2,2,2,0,0
+363,BU_P5,Others,SG,4,4.0,1.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+364,BU_P5,Others,SG,2,2.0,1.0,Female,2,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+365,BU_P5,Others,SG,6,2.0,2.0,Male,3,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+366,BU_P5,Others,SG,6,4.0,1.0,Male,3,Chinese,No,3,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+367,BU_P5,Others,SG,4,2.0,1.0,Female,3,Chinese,No,3,1,0,0,2,Adviser,1,0,3,3,3,3,0,0
+368,BU_P5,Others,CA,6,7.5,2.0,Male,5,Canadian,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+369,BU_P5,Others,CA,4,2.0,2.0,Male,3,English,No,2,1,0,0,2,Adviser,1,0,3,3,3,3,0,0
+370,BU_P5,Others,SG,6,4.0,1.0,Male,3,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+371,BU_P5,Others,SG,4,4.0,2.0,Male,2,Chinese,No,3,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+372,BU_P5,Others,AU,5,12.5,2.0,Male,3,Italian,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+373,BU_P5,Others,CA,5,7.5,2.0,Male,3,English,No,1,0,0,0,3,Adviser,1,0,2,2,2,2,0,0
+374,BU_P5,Others,SG,6,2.0,2.0,Female,3,Chinese,No,3,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+375,BU_P5,Others,SG,6,7.5,2.0,Male,3,Chinese,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+376,BU_P5,Others,SG,4,2.0,2.0,Female,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+377,BU_P5,Others,SG,3,7.5,2.0,Female,4,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+378,BU_P5,Others,SG,4,1.0,1.0,Male,3,Indian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+379,BU_P5,Others,SG,6,1.0,1.0,Male,5,Chinese,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+380,BU_P5,Others,SG,4,7.5,2.0,Male,3,Malays,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+381,BU_P5,Sales & Marketing,SG,5,12.5,4.0,Female,4,Chinese,No,1,1,1,0,3,Adviser,1,0,2,2,2,2,0,0
+382,BU_P5,Sales & Marketing,SG,4,12.5,4.0,Male,4,Chinese,No,2,1,1,0,2,Adviser,0,0,1,1,1,1,0,0
+383,BU_P5,Sales & Marketing,SG,4,12.5,2.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+384,BU_P5,Sales & Marketing,SG,4,7.5,2.0,Female,3,Chinese,No,1,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+385,BU_P5,Sales & Marketing,CA,5,7.5,2.0,Female,3,Canadian,No,1,1,0,0,3,Adviser,1,0,2,2,2,2,0,0
+386,BU_P5,Sales & Marketing,SG,6,4.0,2.0,Female,4,Chinese,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+387,BU_P5,Sales & Marketing,SG,4,4.0,4.0,Female,3,Chinese,No,2,0,1,0,2,Adviser,0,0,2,2,2,2,0,0
+388,BU_P5,Sales & Marketing,SG,5,12.5,2.0,Female,4,Chinese,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+389,BU_P5,Sales & Marketing,SG,4,7.5,4.0,Male,3,Chinese,No,2,1,1,0,2,Adviser,0,0,3,3,3,3,0,0
+390,BU_P5,Sales & Marketing,SG,6,4.0,4.0,Female,4,Chinese,No,3,1,1,0,3,Adviser,1,0,3,3,3,3,0,0
+391,BU_P5,Sales & Marketing,SG,4,4.0,4.0,Female,3,Chinese,No,1,1,1,0,2,Adviser,0,0,2,2,2,2,0,0
+392,BU_P5,Sales & Marketing,SG,2,2.0,2.0,Female,2,Chinese,No,1,1,0,0,1,Analyst,0,0,3,3,3,3,0,0
+393,BU_P5,Sales & Marketing,SG,6,4.0,4.0,Male,4,Malays,No,2,1,1,0,3,Adviser,0,0,3,3,3,3,0,0
+394,BU_P5,Sales & Marketing,CN,2,4.0,2.0,Male,2,Chinese,No,3,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+395,BU_P5,Sales & Marketing,CN,6,2.0,2.0,Female,4,Chinese,No,3,0,0,0,3,Adviser,1,0,2,2,2,2,0,0
+396,BU_P5,Sales & Marketing,CN,4,2.0,2.0,Female,3,Chinese,No,3,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+397,BU_P5,Sales & Marketing,SG,6,12.5,2.0,Male,3,Chinese,No,2,1,0,0,3,Adviser,1,1,3,3,3,3,0,0
+398,BU_P5,Sales & Marketing,SG,4,12.5,1.0,Female,4,Malays,No,2,1,0,0,2,Adviser,1,1,3,3,3,3,0,0
+399,BU_P5,Sales & Marketing,SG,4,7.5,2.0,Male,3,Chinese,No,2,1,0,0,2,Adviser,1,1,3,3,3,3,0,0
+400,BU_P5,Sales & Marketing,SG,5,4.0,2.0,Female,3,Malays,No,2,1,0,0,3,Adviser,0,1,3,3,3,3,0,0
+401,BU_P5,Sales & Marketing,GL,4,12.5,7.5,Female,4,White,No,1,1,1,1,2,Adviser,0,0,3,3,3,3,0,0
+402,BU_P5,Sales & Marketing,SG,3,2.0,1.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+403,BU_P5,Sales & Marketing,SG,4,7.5,2.0,Female,3,Chinese,No,1,1,0,0,2,Adviser,1,0,2,2,2,2,0,0
+404,BU_P5,Sales & Marketing,SG,2,4.0,2.0,Male,3,Chinese,No,1,0,0,0,1,Analyst,0,0,1,1,1,1,0,0
+405,BU_P5,Sales & Marketing,SG,4,2.0,1.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+406,BU_P5,Sales & Marketing,SG,5,2.0,1.0,Male,4,Chinese,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+407,BU_P5,Sales & Marketing,SG,6,1.0,1.0,Male,4,Chinese,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+408,BU_P5,Sales & Marketing,SG,5,1.0,1.0,Female,3,Indian,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+409,BU_P5,Sales & Marketing,SG,5,7.5,2.0,Female,3,Chinese,No,2,0,0,0,3,Adviser,1,0,2,2,2,2,0,0
+410,BU_P5,Sales & Marketing,SG,5,2.0,2.0,Male,3,Chinese,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+411,BU_P5,Sales & Marketing,SG,5,1.0,1.0,Male,3,Chinese,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+412,BU_P5,Sales & Marketing,SG,6,1.0,1.0,Male,3,Chinese,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+413,BU_P5,Sales & Marketing,CA,3,4.0,2.0,Male,3,Canadian,No,1,0,0,0,2,Adviser,0,1,1,1,1,1,0,0
+414,BU_P5,Sales & Marketing,CA,5,4.0,2.0,Male,3,English,No,3,0,0,0,3,Manager,1,0,2,2,2,2,0,0
+415,BU_P5,Sales & Marketing,SG,1,1.0,1.0,Male,2,Indian,Yes,2,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+416,BU_P5,Others,SG,4,1.0,1.0,Female,3,Chinese,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+417,BU_P5,Others,SG,6,1.0,1.0,Male,3,Chinese,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+418,BU_P5,Others,SG,6,2.0,1.0,Female,4,Chinese,No,2,0,0,0,3,Adviser,1,0,2,2,2,2,0,0
+419,BU_P5,Others,SG,4,2.0,2.0,Female,3,Chinese,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+420,BU_P5,Others,SG,4,7.5,1.0,Female,3,Chinese,No,2,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+421,BU_P5,Supply Chain,SG,5,12.5,2.0,Female,3,Chinese,No,2,0,0,0,3,Manager,1,0,3,3,3,3,0,0
+422,BU_P5,Supply Chain,SG,5,7.5,1.0,Male,3,Chinese,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+423,BU_P5,Supply Chain,SG,3,4.0,1.0,Female,2,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+424,BU_P5,Supply Chain,SG,3,1.0,1.0,Male,2,Chinese,Yes,2,0,0,0,1,Adviser,1,0,3,3,3,3,0,0
+425,BU_P5,Sales & Marketing,CA,5,15.0,12.5,Male,6,Scottish,No,1,0,1,1,3,Manager,0,0,2,2,2,2,0,0
+426,BU_P5,Supply Chain,CA,4,12.5,4.0,Female,3,Canadian,No,2,0,1,0,2,Adviser,0,1,2,2,2,2,0,0
+427,BU_P5,Supply Chain,CA,4,7.5,7.5,Male,4,Canadian,No,1,0,1,1,2,Adviser,0,1,2,2,2,2,0,0
+428,BU_P5,Supply Chain,CA,4,7.5,7.5,Male,5,Canadian,No,1,0,1,1,2,Adviser,0,1,2,2,2,2,0,0
+429,BU_P5,Supply Chain,CA,4,12.5,2.0,Male,4,Canadian,No,1,0,0,0,2,Floor Manager,1,0,3,3,3,3,0,0
+430,BU_P5,Supply Chain,CA,2,2.0,2.0,Female,5,Canadian,No,2,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+431,BU_P5,Supply Chain,CA,2,2.0,2.0,Male,4,English,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+432,BU_P5,Supply Chain,CA,2,1.0,1.0,Female,3,Canadian,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+433,BU_P5,Supply Chain,SG,4,2.0,2.0,Male,3,Malays,No,3,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+434,BU_P5,Supply Chain,SG,5,7.5,2.0,Female,3,Malays,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+435,BU_P5,Supply Chain,SG,4,7.5,2.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+436,BU_P5,Supply Chain,SG,3,4.0,2.0,Female,3,Malays,No,1,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+437,BU_P5,Supply Chain,SG,3,2.0,1.0,Female,2,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+438,BU_P5,Supply Chain,SG,4,2.0,2.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+439,BU_P5,Supply Chain,SG,5,12.5,2.0,Female,3,Indian,No,1,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+440,BU_P5,Supply Chain,SG,4,7.5,2.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+441,BU_P5,Supply Chain,SG,3,2.0,2.0,Female,3,Chinese,No,1,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+442,BU_P5,Supply Chain,SG,4,1.0,1.0,Female,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+443,BU_P5,Others,SG,6,2.0,2.0,Male,4,Chinese,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+444,BU_P5,Others,SG,5,2.0,2.0,Male,4,Chinese,No,2,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+445,BU_P5,Others,SG,5,12.5,1.0,Male,3,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+446,BU_P5,Others,SG,4,4.0,1.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+447,BU_P5,Others,SG,6,4.0,1.0,Male,4,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+448,BU_P5,Others,SG,5,2.0,1.0,Female,3,Malays,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+449,BU_P5,Others,SG,2,2.0,1.0,Male,2,Chinese,No,3,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+450,BU_P5,Others,SG,3,4.0,2.0,Male,3,Indian,No,2,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+451,BU_P5,Others,SG,5,2.0,2.0,Female,4,Chinese,No,1,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+452,BU_P5,Others,SG,3,2.0,2.0,Male,2,Chinese,No,1,0,0,0,1,Adviser,0,1,3,3,3,3,0,0
+453,BU_P5,Others,CA,6,15.0,4.0,Male,5,English,No,1,0,1,0,3,Adviser,0,1,2,2,2,2,0,0
+454,BU_P5,Supply Chain,AU,4,7.5,2.0,Male,4,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+455,BU_P5,Supply Chain,GL,3,7.5,7.5,Male,5,Black,No,1,0,1,1,2,Adviser,0,0,2,2,2,2,0,0
+456,BU_P5,Supply Chain,SG,3,12.5,2.0,Female,4,Chinese,No,1,0,0,0,1,Adviser,0,0,2,2,2,2,0,0
+457,BU_P5,Supply Chain,SG,2,12.5,2.0,Female,4,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+458,BU_P5,Supply Chain,SG,2,4.0,2.0,Female,3,Chinese,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+459,BU_P5,Sales & Marketing,SG,2,4.0,2.0,Female,4,Chinese,No,2,0,0,0,1,Analyst,1,0,3,3,3,3,0,0
+460,BU_P5,Sales & Marketing,SG,2,4.0,2.0,Male,3,Chinese,No,2,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+461,BU_P5,Sales & Marketing,SG,2,2.0,2.0,Male,2,Malays,No,2,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+462,BU_P5,Supply Chain,SG,4,1.0,1.0,Female,4,Malays,No,1,0,0,0,2,Floor Manager,0,0,2,2,2,2,0,0
+463,BU_P5,Supply Chain,AU,5,7.5,2.0,Male,4,British,No,1,0,0,0,3,Adviser,1,0,3,3,3,3,0,0
+464,BU_P5,Supply Chain,AU,3,1.0,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+465,BU_P5,Supply Chain,US,2,7.5,2.0,Male,3,Black,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+466,BU_P5,Supply Chain,US,2,7.5,2.0,Female,6,White,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+467,BU_P5,Supply Chain,US,5,4.0,2.0,Male,2,White,No,2,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+468,BU_P5,Supply Chain,US,2,2.0,2.0,Female,3,Hispano,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+469,BU_P5,Supply Chain,US,2,2.0,2.0,Male,3,White,No,1,1,0,0,1,Analyst,0,0,3,3,3,3,0,0
+470,BU_P5,Supply Chain,US,2,2.0,2.0,Female,2,White,No,2,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+471,BU_P5,Supply Chain,US,2,2.0,2.0,Male,3,White,No,2,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+472,BU_P5,Supply Chain,US,2,1.0,1.0,Female,3,Black,No,3,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+473,BU_P5,Supply Chain,US,6,15.0,2.0,Male,5,Black,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+474,BU_P5,Supply Chain,US,5,2.0,2.0,Male,4,White,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+475,BU_P5,Supply Chain,US,2,2.0,2.0,Female,2,White,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+476,BU_P5,Supply Chain,US,4,2.0,2.0,Male,3,Black,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+477,BU_P5,Supply Chain,CA,5,15.0,1.0,Female,6,English,No,1,0,0,0,3,Manager,1,0,2,2,2,2,0,0
+478,BU_P5,Supply Chain,CA,2,15.0,2.0,Male,5,Scottish,No,1,0,0,0,2,Analyst,0,0,2,2,2,2,0,0
+479,BU_P5,Supply Chain,CA,4,7.5,2.0,Female,3,English,No,1,0,0,0,2,Floor Manager,1,0,3,3,3,3,0,0
+480,BU_P5,Supply Chain,CA,1,7.5,2.0,Female,3,Canadian,No,3,0,0,0,1,Analyst,1,0,3,3,3,3,0,0
+481,BU_P5,Supply Chain,DE,2,7.5,2.0,Male,3,German,No,2,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+482,BU_P5,Supply Chain,CA,2,2.0,2.0,Male,3,Canadian,No,1,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+483,BU_P5,Supply Chain,DE,2,1.0,1.0,Female,4,German,No,2,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+484,BU_P5,Supply Chain,CA,5,7.5,2.0,Male,4,Scottish,No,1,0,0,0,3,Manager,1,0,3,3,3,3,0,0
+485,BU_P5,Supply Chain,CA,2,4.0,2.0,Female,3,Scottish,No,3,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+486,BU_P5,Supply Chain,CA,1,4.0,2.0,Female,5,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+487,BU_P5,Supply Chain,CA,3,2.0,1.0,Female,2,Canadian,No,3,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+488,BU_P5,Supply Chain,CA,2,2.0,2.0,Female,2,Canadian,No,3,0,0,0,1,Analyst,1,0,3,3,3,3,0,0
+489,BU_P5,Supply Chain,CA,6,12.5,2.0,Male,4,Canadian,No,1,0,0,0,3,Manager,1,0,3,3,3,3,0,0
+490,BU_P5,Supply Chain,CA,4,12.5,2.0,Male,4,Canadian,No,2,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+491,BU_P5,Sales & Marketing,CA,5,4.0,1.0,Male,2,Canadian,No,2,0,0,0,2,Manager,1,0,3,3,3,3,0,0
+492,BU_P5,Supply Chain,CA,3,2.0,2.0,Female,2,Canadian,No,2,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+493,BU_P5,Supply Chain,CA,3,2.0,1.0,Female,3,Scottish,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+494,BU_P5,Supply Chain,CA,5,12.5,12.5,Male,5,Scottish,No,1,0,1,1,3,Manager,0,0,2,3,2,3,-1,-1
+495,BU_P5,Sales & Marketing,SG,5,4.0,2.0,Female,3,Malays,No,2,1,0,0,3,Adviser,1,0,2,2,2,2,0,0
+496,BU_P5,Others,AU,6,15.0,2.0,Male,5,British,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+497,BU_P5,Others,SG,5,2.0,2.0,Male,5,Chinese,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+498,BU_P5,Supply Chain,SG,6,2.0,1.0,Male,3,Chinese,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+499,BU_P5,Supply Chain,SG,3,2.0,1.0,Female,3,Indian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+500,BU_P5,Supply Chain,SG,6,7.5,1.0,Male,3,Chinese,No,1,1,0,0,3,Manager,0,0,3,3,3,3,0,0
+501,BU_P5,Supply Chain,SG,4,7.5,2.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+502,BU_P5,Supply Chain,SG,5,1.0,1.0,Male,4,Indian,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+503,BU_P5,Supply Chain,GL,3,7.5,7.5,Male,5,Chinese,No,1,1,1,1,2,Supervisor,0,0,2,2,2,2,0,0
+504,BU_P5,Supply Chain,GL,5,2.0,2.0,Male,4,British,No,2,1,0,0,3,Manager,1,0,3,3,3,3,0,0
+505,BU_P5,Supply Chain,AU,5,2.0,2.0,Male,4,British,No,3,0,0,0,3,Manager,1,0,3,3,3,3,0,0
+506,BU_P5,Supply Chain,AU,4,2.0,2.0,Male,3,British,No,2,1,0,0,2,Adviser,1,0,2,2,2,2,0,0
+507,BU_P5,Supply Chain,SG,6,7.5,7.5,Male,5,Chinese,No,1,1,1,1,3,Manager,0,0,2,2,2,2,0,0
+508,BU_P5,Supply Chain,CN,5,7.5,7.5,Male,3,Chinese,No,1,0,1,1,3,Manager,0,0,2,2,2,2,0,0
+509,BU_P5,Supply Chain,SG,4,12.5,1.0,Female,4,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+510,BU_P5,Supply Chain,SG,3,4.0,2.0,Female,5,Chinese,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+511,BU_P5,Supply Chain,SG,3,2.0,1.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+512,BU_P5,Supply Chain,SG,3,2.0,1.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+513,BU_P5,Supply Chain,SG,4,7.5,2.0,Female,5,Indian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+514,BU_P5,Supply Chain,SG,3,2.0,2.0,Male,3,Malays,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+515,BU_P5,Supply Chain,SG,3,2.0,2.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+516,BU_P5,Supply Chain,SG,6,2.0,1.0,Male,3,Chinese,No,2,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+517,BU_P5,Supply Chain,SG,3,2.0,1.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+518,BU_P5,Sales & Marketing,SG,1,1.0,1.0,Female,2,Chinese,Yes,1,0,0,0,1,Analyst,1,0,3,3,3,3,0,0
+519,BU_P5,Supply Chain,SG,3,1.0,1.0,Male,3,Malays,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+520,BU_P6,Supply Chain,CA,4,15.0,7.5,Female,3,Canadian,No,3,0,1,1,2,Adviser,1,1,2,2,2,2,0,0
+521,BU_P6,Supply Chain,CA,5,2.0,1.0,Male,4,English,No,2,1,0,0,3,Adviser,0,0,1,1,1,1,0,0
+522,BU_P6,Supply Chain,AU,6,1.0,1.0,Female,5,British,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+523,BU_P6,Supply Chain,AU,5,1.0,1.0,Male,3,British,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+524,BU_P6,Supply Chain,AU,3,1.0,1.0,Male,3,British,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+525,BU_P6,Supply Chain,AU,4,12.5,7.5,Female,4,Italian,No,1,1,1,1,2,Adviser,0,0,2,2,2,2,0,0
+526,BU_P6,Supply Chain,AU,4,7.5,2.0,Male,5,British,No,3,0,0,0,2,Adviser,1,1,1,1,1,1,0,0
+527,BU_P6,Supply Chain,AU,5,7.5,1.0,Female,3,British,No,2,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+528,BU_P6,Supply Chain,AU,4,4.0,1.0,Male,3,British,No,1,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+529,BU_P6,Supply Chain,AU,4,12.5,1.0,Female,5,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+530,BU_P6,Supply Chain,CA,5,2.0,2.0,Male,4,Canadian,No,1,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+531,BU_P6,Supply Chain,SG,5,7.5,2.0,Female,4,Chinese,No,3,1,0,0,3,Adviser,1,1,2,2,2,2,0,0
+532,BU_P6,Supply Chain,AU,5,12.5,1.0,Male,4,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+533,BU_P6,Supply Chain,SG,4,7.5,2.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+534,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,3,British,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+535,BU_P6,Supply Chain,AU,3,12.5,1.0,Male,4,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+536,BU_P6,Supply Chain,AU,5,7.5,1.0,Male,4,British,No,2,0,0,0,3,Adviser,1,1,3,3,3,3,0,0
+537,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,3,British,No,2,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+538,BU_P6,Supply Chain,CA,6,2.0,1.0,Male,4,Scottish,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+539,BU_P6,Supply Chain,CA,4,2.0,1.0,Male,3,English,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+540,BU_P6,Supply Chain,CA,4,2.0,2.0,Female,4,Canadian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+541,BU_P6,Supply Chain,CA,4,1.0,1.0,Male,5,Canadian,No,2,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+542,BU_P6,Supply Chain,AU,5,12.5,1.0,Male,3,British,No,2,0,0,0,3,Adviser,1,0,2,2,2,2,0,0
+543,BU_P6,Supply Chain,AU,4,4.0,1.0,Male,3,British,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+544,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,3,British,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+545,BU_P6,Supply Chain,SG,7,4.0,1.0,Male,5,Chinese,No,1,1,0,0,3,Manager,0,0,3,3,3,3,0,0
+546,BU_P6,Supply Chain,AU,2,1.0,1.0,Male,4,British,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+547,BU_P6,Supply Chain,AU,5,1.0,1.0,Male,4,British,No,1,1,0,0,3,Manager,0,0,2,2,2,2,0,0
+548,BU_P6,Supply Chain,AU,6,15.0,1.0,Female,5,British,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+549,BU_P6,Supply Chain,AU,4,2.0,1.0,Male,4,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+550,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,4,British,No,1,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+551,BU_P6,Supply Chain,AU,4,1.0,1.0,Female,4,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+552,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+553,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,4,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+554,BU_P6,Supply Chain,AU,5,4.0,1.0,Male,3,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+555,BU_P6,Supply Chain,CA,4,12.5,4.0,Female,4,Canadian,No,1,0,1,0,2,Adviser,0,0,2,2,2,2,0,0
+556,BU_P6,Supply Chain,CA,4,4.0,4.0,Male,3,Canadian,No,2,0,1,0,2,Adviser,0,0,1,1,1,1,0,0
+557,BU_P6,Supply Chain,CA,4,2.0,1.0,Female,3,Canadian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+558,BU_P6,Supply Chain,AU,4,2.0,2.0,Male,3,British,No,2,0,0,0,2,Adviser,1,0,1,1,1,1,0,0
+559,BU_P6,Supply Chain,AU,5,1.0,1.0,Male,4,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+560,BU_P6,Supply Chain,AU,6,2.0,1.0,Female,4,British,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+561,BU_P6,Supply Chain,CN,3,12.5,12.5,Male,4,Chinese,No,2,0,1,1,2,Adviser,0,0,2,3,2,3,-1,-1
+562,BU_P6,Supply Chain,CN,3,12.5,2.0,Male,4,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+563,BU_P6,Supply Chain,CN,3,7.5,7.5,Male,3,Chinese,No,2,0,1,1,2,Adviser,0,0,2,2,2,2,0,0
+564,BU_P6,Supply Chain,CN,3,7.5,7.5,Female,3,Chinese,No,2,0,1,1,2,Adviser,0,0,2,2,2,2,0,0
+565,BU_P6,Supply Chain,CN,3,4.0,4.0,Male,3,Chinese,No,3,0,1,0,2,Adviser,0,0,3,3,3,3,0,0
+566,BU_P6,Supply Chain,AU,5,7.5,2.0,Male,3,British,No,2,0,0,0,3,Manager,1,0,2,2,2,2,0,0
+567,BU_P6,Supply Chain,SG,4,7.5,7.5,Female,4,Chinese,No,1,0,1,1,2,Adviser,0,0,2,2,2,2,0,0
+568,BU_P6,Supply Chain,AU,3,7.5,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+569,BU_P6,Supply Chain,AU,3,2.0,1.0,Male,2,British,No,1,0,0,0,2,Adviser,1,1,2,2,2,2,0,0
+570,BU_P6,Supply Chain,AU,2,2.0,2.0,Female,2,British,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+571,BU_P6,Supply Chain,AU,4,1.0,1.0,Female,2,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+572,BU_P6,Supply Chain,AU,5,7.5,1.0,Female,3,British,No,2,0,0,0,3,Adviser,0,0,3,3,3,3,0,0
+573,BU_P6,Supply Chain,AU,4,2.0,1.0,Male,4,British,No,1,0,0,0,2,Adviser,0,0,1,1,1,1,0,0
+574,BU_P6,Supply Chain,AU,5,7.5,1.0,Male,3,British,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+575,BU_P6,Supply Chain,AU,4,4.0,1.0,Male,2,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+576,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,5,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+577,BU_P6,Supply Chain,AU,5,7.5,2.0,Male,4,British,No,2,0,0,0,3,Adviser,1,0,2,2,2,2,0,0
+578,BU_P6,Supply Chain,AU,4,2.0,1.0,Female,4,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+579,BU_P6,Supply Chain,US,4,12.5,7.5,Male,4,White,No,1,1,1,1,2,Adviser,0,1,2,2,2,2,0,0
+580,BU_P6,Supply Chain,CA,5,12.5,4.0,Male,4,English,No,3,0,1,0,3,Adviser,0,0,3,3,3,3,0,0
+581,BU_P6,Supply Chain,CA,4,2.0,2.0,Female,5,Scottish,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+582,BU_P6,Supply Chain,AU,3,2.0,1.0,Female,2,Irish,No,2,0,0,0,2,Adviser,0,1,3,3,3,3,0,0
+583,BU_P6,Supply Chain,AU,6,12.5,2.0,Male,4,British,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+584,BU_P6,Supply Chain,GL,4,12.5,1.0,Male,4,Chinese,No,2,0,0,0,1,Adviser,0,1,2,2,2,2,0,0
+585,BU_P6,Supply Chain,AU,4,7.5,2.0,Male,4,Italian,No,1,0,0,0,2,Adviser,0,1,1,1,1,1,0,0
+586,BU_P6,Supply Chain,AU,4,4.0,2.0,Female,4,British,No,2,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+587,BU_P6,Supply Chain,AU,3,2.0,2.0,Male,2,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+588,BU_P6,Supply Chain,AU,4,15.0,4.0,Male,6,Irish,No,1,1,1,0,2,Adviser,0,0,2,2,2,2,0,0
+589,BU_P6,Supply Chain,AU,5,7.5,2.0,Male,4,British,No,2,0,0,0,3,Adviser,1,0,2,2,2,2,0,0
+590,BU_P6,Supply Chain,AU,3,7.5,2.0,Female,3,British,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+591,BU_P6,Supply Chain,AU,3,7.5,2.0,Male,3,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+592,BU_P6,Supply Chain,AU,2,2.0,2.0,Female,4,British,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+593,BU_P6,Supply Chain,AU,3,2.0,2.0,Male,4,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+594,BU_P6,Supply Chain,CA,5,15.0,2.0,Male,6,Canadian,No,3,0,0,0,3,Manager,1,0,3,3,3,3,0,0
+595,BU_P6,Supply Chain,GL,4,7.5,2.0,Male,5,Malays,No,1,1,0,0,2,Adviser,1,1,3,3,3,3,0,0
+596,BU_P6,Supply Chain,CA,3,2.0,2.0,Female,4,Scottish,No,1,1,0,0,2,Adviser,0,1,3,3,3,3,0,0
+597,BU_P6,Supply Chain,CA,6,15.0,2.0,Female,4,Scottish,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+598,BU_P6,Supply Chain,US,4,7.5,2.0,Male,3,Hispano,No,2,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+599,BU_P6,Supply Chain,CA,2,4.0,1.0,Female,2,Canadian,No,1,0,0,0,1,Analyst,0,0,3,3,3,3,0,0
+600,BU_P6,Supply Chain,AU,4,4.0,2.0,Male,3,British,No,2,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+601,BU_P6,Supply Chain,AU,4,12.5,1.0,Female,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+602,BU_P6,Supply Chain,AU,5,7.5,2.0,Female,4,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+603,BU_P6,Supply Chain,AU,4,2.0,2.0,Male,5,British,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+604,BU_P6,Supply Chain,AU,6,12.5,2.0,Male,5,British,No,1,0,0,0,3,Manager,1,1,3,3,3,3,0,0
+605,BU_P6,Supply Chain,AU,4,2.0,2.0,Male,5,British,No,1,0,0,0,2,Adviser,1,1,2,2,2,2,0,0
+606,BU_P6,Supply Chain,AU,3,2.0,2.0,Male,3,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+607,BU_P6,Supply Chain,AU,4,7.5,1.0,Female,3,British,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+608,BU_P6,Supply Chain,AU,4,2.0,2.0,Female,4,British,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+609,BU_P6,Supply Chain,AU,3,2.0,2.0,Female,5,British,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+610,BU_P6,Supply Chain,AU,3,2.0,2.0,Male,4,Italian,No,2,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+611,BU_P6,Supply Chain,AU,6,7.5,2.0,Male,4,British,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+612,BU_P6,Supply Chain,AU,6,2.0,1.0,Male,4,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+613,BU_P6,Supply Chain,CA,6,2.0,1.0,Male,4,English,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+614,BU_P6,Supply Chain,AU,4,2.0,2.0,Male,4,British,No,2,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+615,BU_P6,Supply Chain,AU,4,12.5,1.0,Male,4,British,No,1,0,0,0,2,Floor Manager,1,0,2,2,2,2,0,0
+616,BU_P6,Supply Chain,AU,3,4.0,1.0,Male,4,Irish,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+617,BU_P6,Supply Chain,AU,3,1.0,1.0,Male,2,British,No,1,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+618,BU_P6,Supply Chain,AU,3,2.0,1.0,Female,2,British,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+619,BU_P6,Supply Chain,AU,2,2.0,2.0,Male,2,British,No,2,0,0,0,1,Analyst,1,1,3,3,3,3,0,0
+620,BU_P6,Supply Chain,AU,4,2.0,2.0,Female,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+621,BU_P6,Supply Chain,AU,4,1.0,1.0,Female,3,Irish,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+622,BU_P6,Supply Chain,AU,3,2.0,2.0,Female,4,Irish,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+623,BU_P6,Supply Chain,AU,4,2.0,2.0,Male,4,Irish,No,2,1,0,0,2,Adviser,0,0,1,1,1,1,0,0
+624,BU_P6,Supply Chain,AU,5,1.0,1.0,Female,4,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+625,BU_P6,Supply Chain,AU,3,2.0,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+626,BU_P6,Supply Chain,AU,4,2.0,2.0,Male,4,Irish,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+627,BU_P6,Supply Chain,AU,4,15.0,7.5,Male,5,British,No,1,0,1,1,3,Adviser,1,0,3,3,3,3,0,0
+628,BU_P6,Supply Chain,AU,4,2.0,2.0,Male,3,British,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+629,BU_P6,Supply Chain,AU,6,12.5,1.0,Female,4,British,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+630,BU_P6,Supply Chain,AU,3,4.0,1.0,Female,4,Irish,No,1,0,0,0,1,Adviser,1,0,2,2,2,2,0,0
+631,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,4,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+632,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,4,British,No,1,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+633,BU_P6,Supply Chain,AU,5,2.0,1.0,Female,3,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+634,BU_P6,Supply Chain,AU,3,1.0,1.0,Male,2,British,No,1,0,0,0,2,Adviser,1,1,2,2,2,2,0,0
+635,BU_P6,Supply Chain,AU,4,1.0,1.0,Female,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+636,BU_P6,Supply Chain,AU,3,1.0,1.0,Male,3,British,No,2,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+637,BU_P6,Supply Chain,AU,3,7.5,2.0,Male,5,Irish,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+638,BU_P6,Supply Chain,AU,5,2.0,1.0,Male,5,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+639,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,6,British,No,2,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+640,BU_P6,Supply Chain,AU,5,7.5,1.0,Female,3,British,No,3,0,0,0,3,Manager,1,1,2,2,2,2,0,0
+641,BU_P6,Supply Chain,GL,3,12.5,7.5,Female,4,British,No,1,1,1,1,2,Adviser,1,1,3,3,3,3,0,0
+642,BU_P6,Supply Chain,AU,2,2.0,2.0,Male,4,British,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+643,BU_P6,Supply Chain,AU,2,12.5,2.0,Male,4,British,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+644,BU_P6,Supply Chain,GL,4,12.5,2.0,Male,4,English,No,1,1,0,0,2,Adviser,0,1,3,3,3,3,0,0
+645,BU_P6,Supply Chain,AU,2,2.0,1.0,Male,2,British,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+646,BU_P6,Supply Chain,AU,5,15.0,2.0,Male,3,British,No,1,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+647,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,5,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+648,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,4,British,No,1,0,0,0,2,Floor Manager,0,1,2,2,2,2,0,0
+649,BU_P6,Supply Chain,AU,4,2.0,2.0,Male,4,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+650,BU_P6,Supply Chain,AU,5,12.5,1.0,Female,5,Italian,No,1,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+651,BU_P6,Supply Chain,AU,3,2.0,1.0,Female,3,Irish,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+652,BU_P6,Supply Chain,GL,3,4.0,1.0,Female,4,Chinese,No,1,0,0,0,1,Adviser,1,1,3,3,3,3,0,0
+653,BU_P6,Supply Chain,GL,4,15.0,1.0,Female,4,Malays,No,1,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+654,BU_P6,Supply Chain,GL,2,15.0,2.0,Female,5,Italian,No,1,1,0,0,1,Analyst,0,1,2,2,2,2,0,0
+655,BU_P6,Supply Chain,GL,3,15.0,2.0,Female,4,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+656,BU_P6,Supply Chain,GL,2,12.5,2.0,Female,5,Chinese,No,1,1,0,0,1,Analyst,0,1,2,2,2,2,0,0
+657,BU_P6,Supply Chain,GL,4,4.0,4.0,Female,3,Chinese,No,2,0,1,0,2,Adviser,0,1,2,2,2,2,0,0
+658,BU_P6,Supply Chain,AU,2,12.5,2.0,Female,5,British,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+659,BU_P6,Supply Chain,AU,4,15.0,2.0,Female,5,British,No,3,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+660,BU_P6,Supply Chain,GL,1,4.0,2.0,Female,4,White,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+661,BU_P6,Supply Chain,AU,1,7.5,2.0,Female,4,British,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+662,BU_P6,Supply Chain,GL,4,15.0,2.0,Male,5,British,No,1,1,0,0,2,Floor Manager,0,0,2,2,2,2,0,0
+663,BU_P6,Supply Chain,GL,2,12.5,2.0,Female,5,Chinese,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+664,BU_P6,Supply Chain,AU,4,1.0,1.0,Female,3,Irish,No,1,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+665,BU_P6,Supply Chain,GL,2,15.0,2.0,Female,5,British,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+666,BU_P6,Supply Chain,GL,3,7.5,1.0,Female,3,White,No,3,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+667,BU_P6,Supply Chain,AU,3,4.0,2.0,Male,5,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+668,BU_P6,Supply Chain,GL,3,7.5,1.0,Male,3,British,No,1,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+669,BU_P6,Supply Chain,AU,5,2.0,1.0,Female,3,British,No,1,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+670,BU_P6,Supply Chain,AU,3,7.5,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+671,BU_P6,Supply Chain,AU,3,1.0,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+672,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,3,British,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+673,BU_P6,Supply Chain,AU,5,7.5,2.0,Female,5,Italian,No,1,0,0,0,3,Manager,1,1,2,2,2,2,0,0
+674,BU_P6,Supply Chain,AU,3,2.0,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+675,BU_P6,Supply Chain,AU,3,2.0,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+676,BU_P6,Supply Chain,AU,3,2.0,2.0,Female,5,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+677,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,3,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+678,BU_P6,Supply Chain,AU,5,12.5,2.0,Male,4,British,No,1,0,0,0,3,Manager,1,1,3,3,3,3,0,0
+679,BU_P6,Supply Chain,GL,3,12.5,2.0,Female,3,Chinese,No,1,1,0,0,2,Adviser,1,1,2,2,2,2,0,0
+680,BU_P6,Supply Chain,AU,3,2.0,2.0,Male,4,British,No,1,0,0,0,2,Adviser,1,1,2,2,2,2,0,0
+681,BU_P6,Supply Chain,AU,3,2.0,2.0,Male,4,Irish,No,2,0,0,0,2,Adviser,1,1,2,2,2,2,0,0
+682,BU_P6,Supply Chain,AU,3,2.0,2.0,Male,3,British,No,1,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+683,BU_P6,Supply Chain,AU,3,4.0,1.0,Female,3,British,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+684,BU_P6,Supply Chain,AU,5,7.5,2.0,Male,3,British,No,2,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+685,BU_P6,Supply Chain,AU,2,7.5,2.0,Female,5,British,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+686,BU_P6,Supply Chain,AU,2,2.0,2.0,Female,3,Irish,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+687,BU_P6,Supply Chain,AU,2,2.0,2.0,Female,3,British,No,2,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+688,BU_P6,Supply Chain,AU,2,2.0,2.0,Female,3,British,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+689,BU_P6,Supply Chain,AU,2,1.0,1.0,Female,4,British,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+690,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,3,British,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+691,BU_P6,Supply Chain,AU,3,1.0,1.0,Female,4,British,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+692,BU_P6,Supply Chain,AU,3,15.0,1.0,Male,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+693,BU_P6,Supply Chain,AU,5,12.5,1.0,Male,3,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+694,BU_P6,Supply Chain,AU,3,7.5,1.0,Male,3,Italian,No,3,0,0,0,2,Adviser,1,0,1,1,1,1,0,0
+695,BU_P6,Supply Chain,AU,3,2.0,2.0,Female,3,British,No,1,0,0,0,2,Adviser,0,0,1,1,1,1,0,0
+696,BU_P6,Supply Chain,AU,5,12.5,1.0,Female,3,British,No,2,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+697,BU_P6,Supply Chain,AU,5,7.5,2.0,Female,3,British,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+698,BU_P6,Supply Chain,AU,3,4.0,4.0,Male,4,Italian,No,1,0,1,0,2,Adviser,0,1,2,2,2,2,0,0
+699,BU_P6,Supply Chain,AU,2,1.0,1.0,Male,2,British,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+700,BU_P6,Supply Chain,AU,5,7.5,2.0,Female,3,British,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+701,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,4,Irish,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+702,BU_P6,Supply Chain,AU,3,2.0,2.0,Female,4,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+703,BU_P6,Supply Chain,AU,3,7.5,7.5,Male,5,British,No,2,0,1,1,2,Adviser,1,1,2,2,2,2,0,0
+704,BU_P6,Supply Chain,AU,4,2.0,1.0,Female,4,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+705,BU_P6,Supply Chain,AU,6,1.0,1.0,Male,3,British,No,2,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+706,BU_P6,Supply Chain,AU,3,7.5,1.0,Male,4,British,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+707,BU_P6,Supply Chain,AU,5,12.5,2.0,Female,4,British,No,1,0,0,0,3,Manager,0,1,3,3,3,3,0,0
+708,BU_P6,Supply Chain,AU,3,7.5,2.0,Female,3,British,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+709,BU_P6,Supply Chain,AU,3,7.5,2.0,Female,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+710,BU_P6,Supply Chain,GL,3,2.0,1.0,Female,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+711,BU_P6,Supply Chain,AU,7,2.0,1.0,Female,3,British,No,2,0,0,0,3,Manager,1,0,3,3,3,3,0,0
+712,BU_P6,Supply Chain,AU,6,1.0,1.0,Male,3,British,No,2,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+713,BU_P6,Supply Chain,AU,2,12.5,2.0,Male,3,British,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+714,BU_P6,Supply Chain,AU,3,12.5,2.0,Female,4,British,No,1,0,0,0,2,Adviser,0,1,3,3,3,3,0,0
+715,BU_P6,Supply Chain,AU,3,4.0,2.0,Male,3,Irish,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+716,BU_P6,Supply Chain,AU,3,4.0,2.0,Male,5,British,No,2,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+717,BU_P6,Supply Chain,AU,5,2.0,2.0,Male,4,British,No,2,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+718,BU_P6,Supply Chain,AU,5,12.5,1.0,Male,4,British,No,1,1,0,0,3,Adviser,0,1,2,2,2,2,0,0
+719,BU_P6,Supply Chain,AU,3,7.5,2.0,Female,5,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+720,BU_P6,Supply Chain,AU,6,12.5,2.0,Female,5,British,No,2,0,0,0,3,Adviser,1,1,3,3,3,3,0,0
+721,BU_P6,Supply Chain,AU,5,12.5,1.0,Female,4,British,No,1,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+722,BU_P6,Supply Chain,SG,3,12.5,4.0,Female,5,Malays,No,2,0,1,0,1,Adviser,1,0,2,2,2,2,0,0
+723,BU_P6,Supply Chain,AU,3,15.0,1.0,Female,5,Irish,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+724,BU_P6,Supply Chain,AU,6,7.5,2.0,Male,5,British,No,2,0,0,0,3,Manager,0,1,2,2,2,2,0,0
+725,BU_P6,Supply Chain,AU,4,4.0,2.0,Female,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+726,BU_P6,Supply Chain,SG,3,7.5,1.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,1,0,3,3,3,3,0,0
+727,BU_P6,Supply Chain,AU,3,4.0,1.0,Female,2,British,No,1,0,0,0,1,Adviser,1,0,1,1,1,1,0,0
+728,BU_P6,Supply Chain,SG,5,4.0,1.0,Male,3,Chinese,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+729,BU_P6,Supply Chain,CA,3,7.5,1.0,Female,3,Canadian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+730,BU_P6,Supply Chain,AU,5,1.0,1.0,Male,3,British,No,1,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+731,BU_P6,Supply Chain,GL,5,15.0,1.0,Female,4,Canadian,No,1,1,0,0,3,Manager,0,1,2,2,2,2,0,0
+732,BU_P6,Others,GL,3,12.5,1.0,Male,4,Chinese,No,2,1,0,0,2,Adviser,0,1,2,2,2,2,0,0
+733,BU_P6,Others,CA,5,12.5,2.0,Male,5,English,No,1,0,0,0,3,Adviser,0,1,3,3,3,3,0,0
+734,BU_P6,Others,GL,3,4.0,2.0,Female,5,Canadian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+735,BU_P6,Supply Chain,GL,2,2.0,2.0,Male,5,Chinese,No,1,1,0,0,1,Analyst,0,0,1,1,1,1,0,0
+736,BU_P6,Supply Chain,GL,3,12.5,12.5,Female,4,British,No,1,1,1,1,2,Adviser,0,0,2,3,2,3,-1,-1
+737,BU_P6,Supply Chain,GL,5,15.0,12.5,Female,4,Scottish,No,1,1,1,1,3,Manager,1,1,3,3,3,3,0,0
+738,BU_P6,Supply Chain,GL,1,15.0,12.5,Female,4,Scottish,No,1,1,1,1,1,Analyst,0,0,2,3,2,3,-1,-1
+739,BU_P6,Supply Chain,GL,1,12.5,4.0,Female,4,Chinese,No,1,1,1,0,1,Analyst,0,0,2,2,2,2,0,0
+740,BU_P6,Supply Chain,GL,2,7.5,7.5,Female,3,German,No,1,1,1,1,1,Analyst,0,0,2,2,2,2,0,0
+741,BU_P6,Supply Chain,GL,3,12.5,4.0,Female,3,English,No,1,1,1,0,2,Adviser,0,0,2,2,2,2,0,0
+742,BU_P6,Supply Chain,US,4,7.5,4.0,Male,3,White,No,2,0,1,0,2,Adviser,1,0,3,3,3,3,0,0
+743,BU_P6,Supply Chain,GL,5,12.5,2.0,Female,4,Irish,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+744,BU_P6,Supply Chain,GL,2,2.0,2.0,Male,3,Chinese,No,3,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+745,BU_P6,Supply Chain,US,4,15.0,2.0,Male,4,White,No,1,1,0,0,2,Adviser,0,1,3,3,3,3,0,0
+746,BU_P6,Supply Chain,US,5,12.5,4.0,Female,4,White,No,1,1,1,0,3,Manager,1,0,3,3,3,3,0,0
+747,BU_P6,Supply Chain,US,3,7.5,4.0,Female,3,White,No,1,0,1,0,2,Adviser,0,1,2,2,2,2,0,0
+748,BU_P6,Supply Chain,US,3,7.5,2.0,Male,3,White,No,1,0,0,0,2,Adviser,0,1,3,3,3,3,0,0
+749,BU_P6,Supply Chain,US,3,2.0,2.0,Female,5,Hispano,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+750,BU_P6,Supply Chain,US,3,2.0,2.0,Male,4,White,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+751,BU_P6,Supply Chain,US,5,15.0,7.5,Male,4,Hispano,No,1,1,1,1,3,Adviser,0,0,2,2,2,2,0,0
+752,BU_P6,Supply Chain,US,3,12.5,2.0,Male,5,White,No,3,1,0,0,2,Adviser,1,0,3,3,3,3,0,0
+753,BU_P6,Supply Chain,US,3,4.0,2.0,Female,6,White,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+754,BU_P6,Supply Chain,US,3,4.0,1.0,Female,4,White,No,3,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+755,BU_P6,Supply Chain,US,4,2.0,2.0,Female,3,White,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+756,BU_P6,Supply Chain,CA,4,7.5,1.0,Male,5,Canadian,No,2,0,0,0,2,Adviser,0,1,3,3,3,3,0,0
+757,BU_P6,Supply Chain,CA,6,7.5,7.5,Male,5,English,No,1,0,1,1,3,Manager,0,0,2,2,2,2,0,0
+758,BU_P6,Supply Chain,CA,4,7.5,1.0,Female,2,Canadian,No,2,0,0,0,2,Adviser,0,1,3,3,3,3,0,0
+759,BU_P6,Supply Chain,CA,5,15.0,2.0,Male,4,Canadian,No,1,0,0,0,3,Manager,0,1,3,3,3,3,0,0
+760,BU_P6,Supply Chain,CA,3,12.5,12.5,Male,6,Canadian,No,1,0,1,1,2,Adviser,0,0,2,3,2,3,-1,-1
+761,BU_P6,Supply Chain,CA,3,1.0,1.0,Female,4,Scottish,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+762,BU_P6,Supply Chain,GL,5,7.5,4.0,Male,5,Chinese,No,2,1,1,0,3,Manager,1,0,3,3,3,3,0,0
+763,BU_P6,Supply Chain,GL,4,7.5,2.0,Female,3,Chinese,No,2,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+764,BU_P6,Supply Chain,US,3,2.0,1.0,Female,5,White,No,2,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+765,BU_P6,Supply Chain,GL,4,2.0,2.0,Male,6,Canadian,No,1,1,0,0,2,Adviser,0,0,1,1,1,1,0,0
+766,BU_P6,Supply Chain,GL,3,1.0,1.0,Female,5,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+767,BU_P6,Supply Chain,CA,5,4.0,2.0,Female,3,English,No,1,1,0,0,3,Manager,1,0,3,3,3,3,0,0
+768,BU_P6,Supply Chain,CA,3,2.0,2.0,Male,3,Canadian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+769,BU_P6,Supply Chain,CA,4,2.0,2.0,Female,4,Scottish,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+770,BU_P6,Supply Chain,CA,2,2.0,2.0,Male,4,Canadian,No,3,0,0,0,1,Analyst,1,0,3,3,3,3,0,0
+771,BU_P6,Supply Chain,CA,2,2.0,2.0,Female,3,Canadian,No,3,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+772,BU_P6,Supply Chain,CA,5,4.0,2.0,Male,5,English,No,2,0,0,0,3,Manager,1,0,3,3,3,3,0,0
+773,BU_P6,Supply Chain,CA,3,4.0,4.0,Female,5,Canadian,No,1,0,1,0,2,Adviser,0,0,2,2,2,2,0,0
+774,BU_P6,Supply Chain,CA,3,2.0,1.0,Female,3,Scottish,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+775,BU_P6,Supply Chain,CA,4,2.0,2.0,Male,5,Scottish,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+776,BU_P6,Supply Chain,CA,2,1.0,1.0,Female,2,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+777,BU_P6,Supply Chain,AU,4,1.0,1.0,Male,5,British,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+778,BU_P6,Supply Chain,AU,6,12.5,1.0,Male,5,British,No,1,0,0,0,3,Manager,0,0,3,3,3,3,0,0
+779,BU_P6,Supply Chain,CA,1,15.0,2.0,Female,5,English,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+780,BU_P6,Supply Chain,CA,4,15.0,2.0,Female,5,Canadian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+781,BU_P6,Supply Chain,CA,4,2.0,2.0,Male,3,Scottish,No,2,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+782,BU_P6,Supply Chain,CA,5,2.0,2.0,Male,5,Canadian,No,1,0,0,0,3,Manager,1,0,3,3,3,3,0,0
+783,BU_P6,Supply Chain,CA,4,2.0,2.0,Male,4,Canadian,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+784,BU_P6,Supply Chain,AU,4,12.5,2.0,Male,3,British,No,1,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+785,BU_P6,Supply Chain,AU,5,7.5,2.0,Male,4,British,No,2,1,0,0,3,Adviser,1,0,2,2,2,2,0,0
+786,BU_P6,Supply Chain,AU,2,7.5,2.0,Female,3,British,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+787,BU_P6,Supply Chain,AU,2,2.0,2.0,Female,4,Irish,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+788,BU_P6,Supply Chain,CA,3,1.0,1.0,Female,3,English,No,1,0,0,0,2,Adviser,1,1,2,2,2,2,0,0
+789,BU_P6,Supply Chain,CA,4,7.5,2.0,Female,4,English,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+790,BU_P6,Supply Chain,CA,3,7.5,2.0,Male,3,Scottish,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+791,BU_P6,Supply Chain,CA,2,1.0,1.0,Male,5,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+792,BU_P6,Supply Chain,CA,3,2.0,2.0,Male,3,Canadian,No,2,1,0,0,2,Adviser,1,0,2,2,2,2,0,0
+793,BU_P6,Supply Chain,CA,3,2.0,2.0,Female,3,English,No,1,1,0,0,2,Adviser,1,0,2,2,2,2,0,0
+794,BU_P6,Supply Chain,CA,1,1.0,1.0,Female,3,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+795,BU_P6,Supply Chain,CA,1,1.0,1.0,Male,3,English,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+796,BU_P6,Supply Chain,CA,1,1.0,1.0,Female,3,Canadian,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+797,BU_P6,Supply Chain,CA,4,7.5,2.0,Female,3,English,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+798,BU_P6,Supply Chain,CA,3,2.0,2.0,Male,3,Scottish,No,1,1,0,0,2,Adviser,1,0,3,3,3,3,0,0
+799,BU_P6,Supply Chain,CA,1,2.0,2.0,Male,3,English,No,1,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+800,BU_P6,Supply Chain,CA,3,2.0,2.0,Male,3,Canadian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+801,BU_P6,Supply Chain,CA,1,2.0,2.0,Male,2,Canadian,No,1,1,0,0,1,Analyst,1,1,3,3,3,3,0,0
+802,BU_P6,Supply Chain,CA,4,2.0,2.0,Male,3,Canadian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+803,BU_P6,Supply Chain,CA,1,1.0,1.0,Female,2,Canadian,No,1,0,0,0,1,Analyst,1,1,3,3,3,3,0,0
+804,BU_P6,Supply Chain,CA,3,4.0,1.0,Male,2,Canadian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+805,BU_P6,Supply Chain,CA,4,2.0,1.0,Female,4,Scottish,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+806,BU_P6,Supply Chain,CA,2,2.0,2.0,Male,3,Scottish,No,1,1,0,0,1,Analyst,1,0,3,3,3,3,0,0
+807,BU_P6,Supply Chain,CA,4,2.0,2.0,Male,3,Canadian,No,1,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+808,BU_P6,Supply Chain,CA,4,2.0,2.0,Male,3,English,No,1,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+809,BU_P6,Supply Chain,GL,3,12.5,2.0,Female,4,English,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+810,BU_P6,Supply Chain,GL,3,15.0,2.0,Female,4,British,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+811,BU_P6,Supply Chain,GL,3,12.5,2.0,Female,4,Chinese,No,1,1,0,0,2,Adviser,0,0,1,1,1,1,0,0
+812,BU_P6,Supply Chain,GL,3,7.5,4.0,Male,4,English,No,1,1,1,0,2,Adviser,0,0,2,2,2,2,0,0
+813,BU_P6,Supply Chain,GL,4,7.5,2.0,Male,4,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+814,BU_P6,Supply Chain,GL,5,15.0,4.0,Male,5,Chinese,No,2,1,1,0,3,Manager,0,0,3,3,3,3,0,0
+815,BU_P6,Supply Chain,GL,5,15.0,2.0,Male,4,Canadian,No,2,1,0,0,3,Manager,0,0,3,3,3,3,0,0
+816,BU_P6,Supply Chain,GL,3,7.5,1.0,Male,4,Scottish,No,1,1,0,0,2,Adviser,1,0,3,3,3,3,0,0
+817,BU_P6,Supply Chain,GL,4,7.5,2.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+818,BU_P6,Supply Chain,GL,3,4.0,2.0,Female,3,Canadian,No,1,1,0,0,2,Adviser,0,1,3,3,3,3,0,0
+819,BU_P6,Supply Chain,GL,3,4.0,2.0,Male,4,Italian,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+820,BU_P6,Supply Chain,GL,2,2.0,2.0,Male,2,Irish,No,1,1,0,0,1,Analyst,1,0,3,3,3,3,0,0
+821,BU_P6,Supply Chain,GL,3,15.0,2.0,Female,5,British,No,1,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+822,BU_P6,Supply Chain,GL,5,12.5,2.0,Male,3,Chinese,No,2,1,0,0,3,Manager,0,0,3,3,3,3,0,0
+823,BU_P6,Supply Chain,GL,3,15.0,12.5,Female,6,Canadian,No,1,1,1,1,2,Adviser,0,0,2,2,2,2,0,0
+824,BU_P6,Supply Chain,GL,3,7.5,7.5,Male,4,Canadian,No,2,1,1,1,2,Adviser,0,0,2,2,2,2,0,0
+825,BU_P6,Supply Chain,GL,4,2.0,2.0,Male,4,Irish,No,2,1,0,0,2,Adviser,0,0,3,3,3,3,0,0
+826,BU_P6,Supply Chain,GL,4,15.0,7.5,Male,4,British,No,1,1,1,1,2,Adviser,0,0,2,2,2,2,0,0
+827,BU_P6,Supply Chain,GL,2,12.5,12.5,Male,4,British,No,1,1,1,1,1,Analyst,0,0,2,2,2,2,0,0
+828,BU_P6,Supply Chain,GL,2,7.5,4.0,Male,3,Chinese,No,2,1,1,0,1,Analyst,0,0,2,2,2,2,0,0
+829,BU_P6,Supply Chain,GL,2,15.0,7.5,Male,4,Chinese,No,2,1,1,1,1,Analyst,0,0,2,2,2,2,0,0
+830,BU_P6,Supply Chain,GL,3,7.5,4.0,Female,3,German,No,2,1,1,0,2,Adviser,0,0,2,2,2,2,0,0
+831,BU_P6,Supply Chain,GL,6,12.5,7.5,Male,4,Chinese,No,1,1,1,1,3,Manager,0,0,1,1,1,1,0,0
+832,BU_P6,Supply Chain,GL,3,12.5,12.5,Female,4,Malays,No,1,1,1,1,2,Adviser,0,0,3,2,3,2,1,1
+833,BU_P6,Supply Chain,GL,3,12.5,12.5,Female,5,Hispano,No,1,1,1,1,2,Adviser,0,0,2,3,2,3,-1,-1
+834,BU_P6,Supply Chain,GL,1,2.0,2.0,Female,3,White,No,1,1,0,0,1,Analyst,0,0,1,1,1,1,0,0
+835,BU_P6,Supply Chain,GL,3,1.0,1.0,Male,3,Scottish,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+836,BU_P6,Supply Chain,GL,3,12.5,12.5,Female,6,Chinese,No,1,1,1,1,2,Adviser,0,0,2,2,2,2,0,0
+837,BU_P6,Supply Chain,GL,1,12.5,7.5,Male,3,Italian,No,1,1,1,1,1,Analyst,0,0,2,2,2,2,0,0
+838,BU_P6,Supply Chain,GL,1,12.5,1.0,Female,4,British,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+839,BU_P6,Supply Chain,GL,3,4.0,2.0,Female,3,Black,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+840,BU_P6,Supply Chain,GL,3,4.0,1.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+841,BU_P6,Supply Chain,GL,3,2.0,2.0,Male,5,British,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+842,BU_P6,Supply Chain,GL,3,2.0,2.0,Female,5,English,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+843,BU_P6,Supply Chain,GL,6,2.0,2.0,Male,4,White,No,2,1,0,0,3,Manager,1,0,1,1,1,1,0,0
+844,BU_P6,Supply Chain,GL,2,2.0,2.0,Female,3,Malays,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+845,BU_P6,Supply Chain,GL,2,2.0,2.0,Female,3,Chinese,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+846,BU_P6,Supply Chain,GL,3,2.0,2.0,Male,4,Scottish,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+847,BU_P6,Supply Chain,GL,2,2.0,2.0,Male,4,Indian,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+848,BU_P6,Supply Chain,GL,6,7.5,7.5,Male,5,English,No,1,1,1,1,3,Manager,0,0,2,2,2,2,0,0
+849,BU_P6,Supply Chain,GL,4,15.0,7.5,Female,4,Chinese,No,1,1,1,1,2,Adviser,0,0,2,2,2,2,0,0
+850,BU_P6,Supply Chain,GL,6,1.0,1.0,Female,3,Irish,No,2,1,0,0,3,Manager,0,0,1,1,1,1,0,0
+851,BU_P6,Supply Chain,GL,5,12.5,7.5,Male,6,Indian,No,1,1,1,1,3,Adviser,1,0,2,2,2,2,0,0
+852,BU_P6,Supply Chain,GL,3,12.5,1.0,Female,4,Chinese,No,3,0,0,0,2,Supervisor,0,1,2,2,2,2,0,0
+853,BU_P6,Supply Chain,GL,1,12.5,2.0,Female,5,Chinese,No,2,1,0,0,1,Analyst,1,1,2,2,2,2,0,0
+854,BU_P6,Supply Chain,GL,2,12.5,1.0,Female,3,Chinese,No,3,0,0,0,1,Analyst,1,0,2,2,2,2,0,0
+855,BU_P6,Supply Chain,GL,1,4.0,2.0,Female,2,Chinese,No,2,1,0,0,1,Analyst,0,1,2,2,2,2,0,0
+856,BU_P6,Supply Chain,GL,5,12.5,1.0,Male,3,British,No,1,1,0,0,3,Manager,1,0,2,2,2,2,0,0
+857,BU_P6,Supply Chain,GL,2,12.5,2.0,Male,4,Chinese,No,1,1,0,0,1,Analyst,0,1,2,2,2,2,0,0
+858,BU_P6,Supply Chain,GL,2,7.5,2.0,Female,4,Malays,No,2,1,0,0,1,Analyst,1,1,3,3,3,3,0,0
+859,BU_P6,Supply Chain,GL,2,7.5,2.0,Female,3,Chinese,No,1,1,0,0,1,Analyst,0,1,2,2,2,2,0,0
+860,BU_P7,Sales & Marketing,JP,4,15.0,12.5,Male,4,White,No,1,0,1,1,2,Adviser,1,1,2,3,2,3,-1,-1
+861,BU_P7,Others,JP,1,15.0,12.5,Female,5,Canadian,No,1,0,1,1,1,Analyst,0,1,2,3,2,3,-1,-1
+862,BU_P7,Others,JP,5,12.5,4.0,Female,4,British,No,1,0,1,0,3,Adviser,0,1,2,2,2,2,0,0
+863,BU_P7,Others,JP,2,7.5,2.0,Female,3,Chinese,No,3,1,0,0,1,Analyst,0,1,3,3,3,3,0,0
+864,BU_P7,Others,JP,1,1.0,1.0,Female,3,Hispano,No,1,0,0,0,1,Analyst,0,1,1,1,1,1,0,0
+865,BU_P7,Others,JP,6,2.0,2.0,Female,5,Chinese,No,2,0,0,0,3,Adviser,0,1,1,1,1,1,0,0
+866,BU_P7,Others,JP,2,2.0,2.0,Female,4,English,No,1,1,0,0,1,Analyst,1,1,3,3,3,3,0,0
+867,BU_P7,Others,JP,6,12.5,1.0,Male,4,British,No,2,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+868,BU_P7,Others,JP,1,15.0,12.5,Female,4,British,No,1,0,1,1,1,Admin Assistant,0,0,2,2,2,2,0,0
+869,BU_P7,Others,JP,5,7.5,7.5,Male,4,Canadian,No,2,0,1,1,3,Adviser,1,0,2,2,2,2,0,0
+870,BU_P8,Sales & Marketing,GL,5,12.5,7.5,Male,3,Chinese,No,1,0,1,1,3,Manager,1,0,2,2,2,2,0,0
+871,BU_P8,Sales & Marketing,GL,4,12.5,4.0,Female,3,Chinese,No,2,1,1,0,2,Adviser,1,1,2,2,2,2,0,0
+872,BU_P8,Sales & Marketing,GL,2,12.5,2.0,Female,3,Indian,No,1,0,0,0,1,Analyst,0,1,3,3,3,3,0,0
+873,BU_P8,Sales & Marketing,GL,5,15.0,7.5,Male,4,Chinese,No,1,1,1,1,3,Manager,0,0,2,2,2,2,0,0
+874,BU_P8,Sales & Marketing,GL,2,12.5,12.5,Female,5,British,No,1,0,1,1,1,Analyst,0,0,3,3,3,3,0,0
+875,BU_P8,Sales & Marketing,CN,4,2.0,2.0,Male,3,Chinese,No,3,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+876,BU_P8,Sales & Marketing,CN,4,2.0,2.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+877,BU_P8,Sales & Marketing,CN,3,7.5,2.0,Male,3,Chinese,No,3,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+878,BU_P8,Sales & Marketing,CN,4,2.0,2.0,Male,3,Chinese,No,3,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+879,BU_P8,Sales & Marketing,CN,3,12.5,2.0,Female,4,Chinese,No,1,0,0,0,2,Adviser,1,0,3,3,3,3,0,0
+880,BU_P8,Sales & Marketing,CN,1,1.0,1.0,Female,3,Chinese,No,1,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+881,BU_P8,Sales & Marketing,CN,5,7.5,1.0,Female,3,Chinese,No,1,1,0,0,3,Manager,0,1,3,3,3,3,0,0
+882,BU_P8,Others,CN,4,2.0,2.0,Male,3,Chinese,No,3,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+883,BU_P8,Sales & Marketing,CN,4,2.0,2.0,Male,5,Chinese,No,2,0,0,0,3,Adviser,0,0,3,3,3,3,0,0
+884,BU_P8,Sales & Marketing,CN,3,2.0,2.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+885,BU_P8,Sales & Marketing,CN,2,1.0,1.0,Male,3,Chinese,No,1,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+886,BU_P8,Sales & Marketing,SG,6,4.0,1.0,Male,3,Chinese,No,2,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+887,BU_P8,Sales & Marketing,SG,6,12.5,2.0,Male,3,Indian,No,1,0,0,0,3,Manager,1,0,2,2,2,2,0,0
+888,BU_P8,Sales & Marketing,SG,4,12.5,2.0,Male,3,Chinese,No,2,1,0,0,2,Adviser,1,0,1,1,1,1,0,0
+889,BU_P8,Sales & Marketing,SG,4,2.0,2.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+890,BU_P8,Sales & Marketing,SG,6,2.0,2.0,Male,3,Chinese,No,2,1,0,0,3,Manager,1,0,2,2,2,2,0,0
+891,BU_P8,Sales & Marketing,SG,3,12.5,2.0,Female,3,Indian,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+892,BU_P8,Sales & Marketing,SG,1,7.5,1.0,Male,3,Chinese,No,1,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+893,BU_P8,Sales & Marketing,CN,5,4.0,2.0,Male,3,Chinese,No,1,0,0,0,3,Manager,0,0,3,3,3,3,0,0
+894,BU_P8,Sales & Marketing,CN,2,1.0,1.0,Female,2,Chinese,No,2,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+895,BU_P8,Sales & Marketing,SG,5,4.0,1.0,Female,3,Malays,No,2,0,0,0,3,Adviser,1,0,3,3,3,3,0,0
+896,BU_P8,Sales & Marketing,SG,3,4.0,1.0,Female,2,Chinese,No,3,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+897,BU_P8,Supply Chain,SG,2,12.5,2.0,Female,4,Chinese,No,1,1,0,0,1,Analyst,0,0,2,2,2,2,0,0
+898,BU_P8,Sales & Marketing,SG,5,12.5,1.0,Male,4,Indian,No,2,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+899,BU_P8,Supply Chain,SG,3,7.5,2.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+900,BU_P8,Sales & Marketing,SG,2,4.0,2.0,Female,3,Chinese,No,3,1,0,0,1,Analyst,1,0,2,2,2,2,0,0
+901,BU_P8,Supply Chain,SG,4,4.0,2.0,Female,3,Chinese,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+902,BU_P8,Supply Chain,SG,4,7.5,1.0,Female,3,Indian,No,2,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+903,BU_P8,Sales & Marketing,SG,4,12.5,1.0,Female,3,Chinese,No,2,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+904,BU_P8,Sales & Marketing,SG,3,2.0,1.0,Female,2,Chinese,No,3,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+905,BU_P8,Sales & Marketing,SG,3,4.0,1.0,Male,2,Chinese,No,2,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+906,BU_P8,Sales & Marketing,CN,4,12.5,2.0,Female,3,Chinese,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+907,BU_P8,Sales & Marketing,CN,2,2.0,2.0,Male,3,Chinese,No,3,0,0,0,1,Analyst,0,1,2,2,2,2,0,0
+908,BU_P8,Sales & Marketing,CN,3,12.5,7.5,Female,3,Chinese,No,1,0,1,1,2,Adviser,0,1,3,3,3,3,0,0
+909,BU_P8,Sales & Marketing,CN,1,7.5,1.0,Male,3,Chinese,No,3,0,0,0,1,Analyst,0,0,2,2,2,2,0,0
+910,BU_P8,Sales & Marketing,CN,5,12.5,2.0,Male,4,Chinese,No,2,0,0,0,3,Adviser,0,0,3,3,3,3,0,0
+911,BU_P8,Sales & Marketing,CN,4,12.5,4.0,Female,3,Chinese,No,1,0,1,0,2,Adviser,0,0,2,2,2,2,0,0
+912,BU_P8,Sales & Marketing,CN,4,7.5,2.0,Male,3,Chinese,No,2,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+913,BU_P8,Sales & Marketing,CN,3,2.0,2.0,Female,2,Chinese,No,1,0,0,0,1,Adviser,1,0,3,3,3,3,0,0
+914,BU_P8,Sales & Marketing,CN,5,12.5,4.0,Female,4,Chinese,No,1,0,1,0,3,Manager,0,0,2,2,2,2,0,0
+915,BU_P8,Sales & Marketing,CN,5,12.5,2.0,Male,4,Chinese,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+916,BU_P8,Sales & Marketing,CN,2,12.5,7.5,Female,4,Chinese,No,1,0,1,1,1,Analyst,1,1,3,3,3,3,0,0
+917,BU_P8,Sales & Marketing,CN,3,7.5,2.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+918,BU_P8,Sales & Marketing,CN,3,2.0,2.0,Female,3,Chinese,No,2,0,0,0,2,Adviser,1,1,2,2,2,2,0,0
+919,BU_P8,Sales & Marketing,CN,4,12.5,2.0,Male,4,Chinese,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+920,BU_P8,Sales & Marketing,SG,5,12.5,1.0,Female,3,Chinese,No,1,0,0,0,3,Manager,0,0,2,2,2,2,0,0
+921,BU_P8,Sales & Marketing,SG,4,4.0,1.0,Male,3,Chinese,No,3,0,0,0,2,Adviser,1,0,2,2,2,2,0,0
+922,BU_P8,Sales & Marketing,SG,4,1.0,1.0,Male,3,Chinese,No,2,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+923,BU_P8,Sales & Marketing,SG,6,2.0,2.0,Female,3,Chinese,No,1,1,0,0,3,Adviser,1,0,2,2,2,2,0,0
+924,BU_P8,Sales & Marketing,SG,6,2.0,2.0,Male,4,Chinese,No,1,1,0,0,3,Manager,1,0,3,3,3,3,0,0
+925,BU_P8,Sales & Marketing,AU,6,15.0,2.0,Female,3,British,No,3,0,0,0,3,Adviser,0,0,2,2,2,2,0,0
+926,BU_P8,Sales & Marketing,AU,3,4.0,2.0,Female,3,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+927,BU_P8,Sales & Marketing,AU,3,2.0,1.0,Female,4,British,No,1,0,0,0,2,Adviser,0,0,2,2,2,2,0,0
+928,BU_P8,Sales & Marketing,AU,6,15.0,12.5,Male,5,Irish,No,1,0,1,1,3,Manager,0,0,2,3,2,3,-1,-1
+929,BU_P8,Sales & Marketing,CN,1,15.0,7.5,Female,4,Chinese,No,1,0,1,1,1,Analyst,0,0,3,3,3,3,0,0
+930,BU_P8,Sales & Marketing,GL,5,2.0,2.0,Male,4,White,No,1,1,0,0,3,Adviser,0,0,2,2,2,2,0,0
+931,BU_P8,Sales & Marketing,CN,4,15.0,7.5,Male,5,Chinese,No,3,0,1,1,2,Adviser,0,0,1,1,1,1,0,0
+932,BU_P8,Sales & Marketing,CN,4,15.0,7.5,Male,5,Chinese,No,1,0,1,1,2,Adviser,0,0,3,3,3,3,0,0
+933,BU_P8,Sales & Marketing,CN,3,7.5,1.0,Male,3,Chinese,No,1,1,0,0,2,Adviser,0,0,2,2,2,2,0,0
+934,BU_P8,Sales & Marketing,CN,5,2.0,1.0,Male,4,Chinese,No,1,0,0,0,3,Manager,1,1,3,3,3,3,0,0
+935,BU_P8,Sales & Marketing,CN,4,2.0,2.0,Female,4,Chinese,No,1,0,0,0,2,Adviser,0,0,3,3,3,3,0,0
+936,BU_P8,Sales & Marketing,CN,4,15.0,7.5,Female,4,Chinese,No,1,0,1,1,3,Adviser,0,1,3,3,3,3,0,0
+937,BU_P8,Sales & Marketing,CN,3,1.0,1.0,Male,3,Chinese,No,1,0,0,0,2,Adviser,0,1,3,3,3,3,0,0
+938,BU_P8,Sales & Marketing,AU,5,7.5,1.0,Male,4,British,No,2,0,0,0,3,Adviser,0,1,2,2,2,2,0,0
+939,BU_P8,Sales & Marketing,AU,4,1.0,1.0,Male,3,Italian,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+940,BU_P8,Sales & Marketing,AU,4,15.0,2.0,Male,5,British,No,1,0,0,0,2,Adviser,0,1,2,2,2,2,0,0
+941,BU_P8,Sales & Marketing,AU,4,15.0,2.0,Female,4,British,No,2,0,0,0,2,Adviser,1,1,3,3,3,3,0,0
+942,BU_P8,Sales & Marketing,GL,4,12.5,1.0,Female,3,British,No,1,1,0,0,2,Adviser,1,0,3,3,3,3,0,0
+943,BU_P8,Sales & Marketing,AU,5,7.5,1.0,Male,3,Irish,No,2,1,0,0,2,Adviser,0,1,3,3,3,3,0,0
